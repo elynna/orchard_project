@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find husky_orchard_gazebo/rviz/husky_orchard.rviz"/>
+</launch>

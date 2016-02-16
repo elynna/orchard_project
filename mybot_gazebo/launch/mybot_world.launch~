@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<launch>
+
+<arg name="show_robot" default="false"/>
+<arg name="show_rviz" default="false"/>
+<arg name="world_name" default="$(find mybot_gazebo)/worlds/mybot.world"/>
+<arg name="laser_enabled" default="true"/>
+<arg name="robot_spawn" default="$(find mybot_gazebo)/launch/spawn_husky.launch"/>
+
+<!-- Load gazebo world -->
+<include file="$(find gazebo_ros)/launch/empty_world.launch">
+	<arg name="world_name" value="$(arg world_name)"/>
+	<arg name="gui" value="true"/>
+	<!-- Additional arguments -->
+	<arg name="paused" value="false"/>
+	<arg name="use_sim_time" value="true"/>
+	<arg name="headless" value="false"/>
+	<arg name="debug" value="false"/>
+</include>
+
+
+<!-- Launch RViz -->
+<group if="$(arg show_rviz)">
+  <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find mybot_gazebo/launch/mybot.rviz"/>
+</group>
+
+
+<group if="$(arg show_robot)">
+	<!-- Load robot control information -->
+	<include file="$(find mybot_control)/launch/control.launch" />
+	<!-- Load and spawn robot in gazebo -->
+	<include file="$(arg robot_spawn)">
+		<arg name="laser_enabled" value="$(arg laser_enabled)"/>
+	</include>
+
+	<!-- Run move_base from husky demo -->
+	<include file="$(find husky_navigation)/launch/move_base_mapless_demo.launch"/>
+</group>
+
+
+
+
+
+</launch>

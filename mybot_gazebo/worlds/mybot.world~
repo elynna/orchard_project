@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+
+<world name="world">
+	<include>
+		<uri>model://sun</uri>
+		<pose>0 50 10 0 0 0</pose>
+	</include>
+	
+	<include>
+		<uri>model://orchard_ground_plane</uri>
+	</include>
+	
+	
+	<!-- Tree population -->
+	<include>
+		<name>tree01</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-2 -4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree02</name>
+		<uri>model://tree_trunk</uri>
+		<pose>2 -4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree03</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-6 -4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree04</name>
+		<uri>model://tree_trunk</uri>
+		<pose>6 -4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree11</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-2 -2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree12</name>
+		<uri>model://tree_trunk</uri>
+		<pose>2 -2 0 0 0 0</pose>
+	</include>
+
+	<include>
+		<name>tree13</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-6 -2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree14</name>
+		<uri>model://tree_trunk</uri>
+		<pose>6 -2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree21</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-2 0 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree22</name>
+		<uri>model://tree_trunk</uri>
+		<pose>2 0 0 0 0 0</pose>
+	</include>
+	
+	
+	<include>
+		<name>tree23</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-6 0 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree24</name>
+		<uri>model://tree_trunk</uri>
+		<pose>6 0 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree31</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-2 2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree32</name>
+		<uri>model://tree_trunk</uri>
+		<pose>2 2 0 0 0 0</pose>
+	</include>
+		
+	<include>
+		<name>tree33</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-6 2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree34</name>
+		<uri>model://tree_trunk</uri>
+		<pose>6 2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree41</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-2 4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree42</name>
+		<uri>model://tree_trunk</uri>
+		<pose>2 4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree43</name>
+		<uri>model://tree_trunk</uri>
+		<pose>-6 4 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>tree44</name>
+		<uri>model://tree_trunk</uri>
+		<pose>6 4 0 0 0 0</pose>
+	</include>
+	
+	<!-- Pergola post population -->
+	<include>
+		<name>post01</name>
+		<uri>model://post_sdf</uri>
+		<pose>-2 -3.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post02</name>
+		<uri>model://post_sdf</uri>
+		<pose>2 -3.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post03</name>
+		<uri>model://post_sdf</uri>
+		<pose>-6 -3.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post04</name>
+		<uri>model://post_sdf</uri>
+		<pose>6 -3.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post11</name>
+		<uri>model://post_sdf</uri>
+		<pose>-2 -1.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post12</name>
+		<uri>model://post_sdf</uri>
+		<pose>2 -1.8 0 0 0 0</pose>
+	</include>
+
+	<include>
+		<name>post13</name>
+		<uri>model://post_sdf</uri>
+		<pose>-6 -1.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post14</name>
+		<uri>model://post_sdf</uri>
+		<pose>6 -1.8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post21</name>
+		<uri>model://post_sdf</uri>
+		<pose>-2 .2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post22</name>
+		<uri>model://post_sdf</uri>
+		<pose>2 .2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post23</name>
+		<uri>model://post_sdf</uri>
+		<pose>-6 .2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post24</name>
+		<uri>model://post_sdf</uri>
+		<pose>6 .2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post31</name>
+		<uri>model://post_sdf</uri>
+		<pose>-2 2.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post32</name>
+		<uri>model://post_sdf</uri>
+		<pose>2 2.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post33</name>
+		<uri>model://post_sdf</uri>
+		<pose>-6 2.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post34</name>
+		<uri>model://post_sdf</uri>
+		<pose>6 2.2 0 0 0 0</pose>
+	</include>
+		
+	<include>
+		<name>post41</name>
+		<uri>model://post_sdf</uri>
+		<pose>-2 4.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post42</name>
+		<uri>model://post_sdf</uri>
+		<pose>2 4.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post43</name>
+		<uri>model://post_sdf</uri>
+		<pose>-6 4.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>post344</name>
+		<uri>model://post_sdf</uri>
+		<pose>6 4.2 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross01</name>
+		<uri>model://crossbeam</uri>
+		<pose>0 -3.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross02</name>
+		<uri>model://crossbeam</uri>
+		<pose>-4 -3.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross03</name>
+		<uri>model://crossbeam</uri>
+		<pose>4 -3.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross11</name>
+		<uri>model://crossbeam</uri>
+		<pose>0 -1.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross12</name>
+		<uri>model://crossbeam</uri>
+		<pose>-4 -1.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross13</name>
+		<uri>model://crossbeam</uri>
+		<pose>4 -1.8 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross21</name>
+		<uri>model://crossbeam</uri>
+		<pose>0 .2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross22</name>
+		<uri>model://crossbeam</uri>
+		<pose>-4 .2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross23</name>
+		<uri>model://crossbeam</uri>
+		<pose>4 .2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross31</name>
+		<uri>model://crossbeam</uri>
+		<pose>0 2.2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross32</name>
+		<uri>model://crossbeam</uri>
+		<pose>-4 2.2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross33</name>
+		<uri>model://crossbeam</uri>
+		<pose>4 2.2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross41</name>
+		<uri>model://crossbeam</uri>
+		<pose>0 4.2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross42</name>
+		<uri>model://crossbeam</uri>
+		<pose>-4 4.2 2 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>cross43</name>
+		<uri>model://crossbeam</uri>
+		<pose>4 4.2 2 0 0 0</pose>
+	</include>
+	
+	<!-- Sheltering hedge -->
+	<include>
+		<name>hedge1a</name>
+		<uri>model://hedge</uri>
+		<pose>-10 5 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge1b</name>
+		<uri>model://hedge</uri>
+		<pose>-10 -5 0 0 0 1.570796</pose>
+	</include>
+
+	<include>
+		<name>hedge2a</name>
+		<uri>model://hedge</uri>
+		<pose>10 5 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge3</name>
+		<uri>model://hedge</uri>
+		<pose>-5 -10 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4a</name>
+		<uri>model://hedge</uri>
+		<pose>-5 10 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4b</name>
+		<uri>model://hedge</uri>
+		<pose>5 10 0 0 0 0</pose>
+	</include>
+
+</world>
+
+
+</sdf>

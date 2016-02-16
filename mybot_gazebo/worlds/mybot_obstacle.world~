@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+
+<world name="world_obstacle">
+
+	
+	<!-- Sheltering hedge -->
+	<include>
+		<name>hedge1a</name>
+		<uri>model://hedge</uri>
+		<pose>-10 5 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge1b</name>
+		<uri>model://hedge</uri>
+		<pose>-10 -5 0 0 0 1.570796</pose>
+	</include>
+
+	<include>
+		<name>hedge2a</name>
+		<uri>model://hedge</uri>
+		<pose>10 5 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge3</name>
+		<uri>model://hedge</uri>
+		<pose>-5 -10 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4a</name>
+		<uri>model://hedge</uri>
+		<pose>-5 10 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4b</name>
+		<uri>model://hedge</uri>
+		<pose>5 10 0 0 0 0</pose>
+	</include>
+</world>
+
+
+</sdf>

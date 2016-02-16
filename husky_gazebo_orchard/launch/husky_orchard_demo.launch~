@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+<!-- Run gazebo with husky and orchard environment -->
+<include file="$(find husky_gazebo_orchard)/launch/husky_orchard.launch"/>
+
+<!-- Run RViz -->
+<include file="$(find husky_gazebo_orchard)/launch/rviz.launch"/>
+
+<!-- Run move_base from husky demo -->
+<include file="$(find husky_navigation)/launch/move_base_mapless_demo.launch"/>
+
+<node name="move_demo" pkg="beginner_tutorials" type="husky_mover.py" output="screen" />
+
+</launch>

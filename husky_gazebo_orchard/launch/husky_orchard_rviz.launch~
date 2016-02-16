@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<include file="$(find husky_gazebo_orchard)/launch/husky_orchard.launch"/>
+<include file="$(find husky_gazebo_orchard)/launch/rviz.launch"/>
+
+</launch>

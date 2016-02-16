@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="laser_enabled" default="true"/>
+  <arg name="ur5_enabled" default="false"/>
+  <arg name="kinect_enabled" default="false"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(env HUSKY_GAZEBO_DESCRIPTION)'
+    laser_enabled:=$(arg laser_enabled)
+    ur5_enabled:=$(arg ur5_enabled)
+    kinect_enabled:=$(arg kinect_enabled)
+    " />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <!-- Load Husky control information -->
+  <include file="$(find husky_control_orchard)/launch/control.launch"/>
+
+
+  <!-- Spawn robot in gazebo 
+  <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"
+    args="$(optenv ROBOT_INITIAL_POSE) -unpause -urdf -y -6 -Y 1.5708 -param robot_description -model mobile_base"/>-->
+
+  <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"
+    args="$(optenv ROBOT_INITIAL_POSE) -unpause -urdf -param robot_description -model mobile_base"/>
+
+</launch>

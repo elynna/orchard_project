@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="world_name" default="$(find mybot_gazebo)/worlds/mybot.world"/>
+
+  <arg name="laser_enabled" default="true"/>
+<!-- ur5 and kinect unused but needed for husky launch arguments -->
+  <arg name="ur5_enabled" default="false"/>
+  <arg name="kinect_enabled" default="false"/>
+  <arg name="show_rviz" default="true"/>
+
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world_name)"/> <!-- world_name is wrt GAZEBO_RESOURCE_PATH environment variable -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <include file="$(find husky_gazebo_orchard)/launch/spawn_husky.launch">
+    <arg name="laser_enabled" value="$(arg laser_enabled)"/>
+    <arg name="ur5_enabled" value="$(arg ur5_enabled)"/>
+    <arg name="kinect_enabled" value="$(arg kinect_enabled)"/>
+  </include>
+
+
+</launch>
