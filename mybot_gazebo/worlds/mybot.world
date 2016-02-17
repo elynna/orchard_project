@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
+
+
 <sdf version="1.4">
 
-<world name="world">
+
+<world name="mybot_world">
 	<include>
 		<uri>model://sun</uri>
 		<pose>0 50 10 0 0 0</pose>
@@ -250,7 +253,7 @@
 	</include>
 	
 	<include>
-		<name>post344</name>
+		<name>post44</name>
 		<uri>model://post</uri>
 		<pose>6 4.2 0 0 0 0</pose>
 	</include>
@@ -258,13 +261,13 @@
 	<include>
 		<name>cross01</name>
 		<uri>model://crossbeam</uri>
-		<pose>0 -3.8 2 0 0 0</pose>
+		<pose>-4 -3.8 2 0 0 0</pose>
 	</include>
 	
 	<include>
 		<name>cross02</name>
 		<uri>model://crossbeam</uri>
-		<pose>-4 -3.8 2 0 0 0</pose>
+		<pose>0 -3.8 2 0 0 0</pose>
 	</include>
 	
 	<include>
@@ -382,7 +385,24 @@
 		<pose>5 10 0 0 0 0</pose>
 	</include>
 
+
+<!-- Small bumps/rocks on the ground -->
+	<include>
+		<name>rock0</name>
+		<uri>model://rock</uri>
+		<pose>0 0 0 0 0 0</pose>
+	</include>
+
+<!-- Testing fruit 
+	<include>
+		<name>fruit0</name>
+		<uri>model://fruit</uri>
+		<pose>0 0 1.75 0 0 0</pose>
+	</include>
+-->
 </world>
+
+
 
 
 </sdf>
