@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="wire">
+  <static>true</static>
+    <link name="cylinder">
+      <pose>0 0 0.01 0 0 0</pose>
+
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+              <radius>.01</radius> <length>0.5</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+              <radius>.01</radius> <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/GreyTransparent</name>
+	  </script>
+        </material>
+      </visual>
+
+
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4</ixx>
+        <ixy>0.0</ixy>
+        <ixz>0.0</ixz>
+        <iyy>0.4</iyy>
+        <iyz>0.0</iyz>
+        <izz>0.2</izz>
+      </inertia>
+    </inertial>
+
+
+
+
+    </link>
+    
+
+  </model>
+</sdf>

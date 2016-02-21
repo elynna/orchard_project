@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<%
+#require 'kiwifruit_locations'
+
+crossbeam_length = 2
+post_h = 1.8
+post_w = 0.1
+post_m = 10
+wire_length = 0.5
+trunk_height = 1.8
+col_num = 4
+row_num = 6
+col_dist = 2.0
+row_dist = 1.0
+post_tree_dist = 0.2
+# The number of wires between posts
+wire_num = 3
+fruit_num = 50
+fruit_mean_z = 1.75
+#fruit_locations = Kiwifruit_locations.getPose(fruit_num, (col_num-1)*col_dist, (row_num-1)*row_dist, fruit_mean_z)
+#(0..array.length).step(2).each do |x|
+#	this = array[x]
+#end
+
+if col_num < 1
+	col_num = 1
+end
+if row_num < 1
+	row_num = 1
+end
+if col_dist < 1
+	col_dist = 1
+end	
+if row_dist < 0.5
+	row_dist = 0.5
+end	
+%>
+
+<sdf version='1.4'>
+  <model name="pergola">
+  <static>false</static>
+  
+  <%
+	post_count = 0
+	(col_num*col_dist).step(col_dist).each do |x|
+		(row_num*row_dist).step(row_dist).each do |y|
+  %>
+		<%= "<link name=" + '"post_' + post_count + '">' %>
+		  <pose><%= x %> <%= y %> <%= post_h/2 %> 0 0 0</pose>
+		  <collision name="collision">
+			<geometry><box><size><%= post_w %> <%= post_w %> <%= post_h %></size></box></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><box><size><%= post_w %> <%= post_w %> <%= post_h %></size></box></geometry>
+			<material><script><name>Gazebo/Wood</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 <%= post_h/2 %> 0 0 0</pose>
+		  <mass>post_m</mass>
+		  <inertia>
+			<ixx><%= post_m*(post_w*post_w+post_h+post_h)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= post_m*(post_w*post_w+post_h+post_h)/12 %></iyy><iyz>0.0</iyz><izz><%= post_m*(post_w*post_w+post_w+post_w)/12 %></izz>
+		  </inertia>
+		</inertial>
+		</link>
+		<% post_count += 1
+		end
+    end %>
+  </model>
+</sdf>

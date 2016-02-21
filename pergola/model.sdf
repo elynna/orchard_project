@@ -1,0 +1,837 @@
+<?xml version='1.0'?>
+
+
+<sdf version='1.4'>
+  <model name="pergola">
+  
+		<include>
+			<name>post_0</name>
+			<pose>0.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_1</name>
+			<pose>0.0 2.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_2</name>
+			<pose>0.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_3</name>
+			<pose>0.0 7.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_4</name>
+			<pose>0.0 10.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_5</name>
+			<pose>0.0 12.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_6</name>
+			<pose>0.0 15.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_7</name>
+			<pose>4.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_8</name>
+			<pose>4.0 2.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_9</name>
+			<pose>4.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_10</name>
+			<pose>4.0 7.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_11</name>
+			<pose>4.0 10.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_12</name>
+			<pose>4.0 12.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_13</name>
+			<pose>4.0 15.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_14</name>
+			<pose>8.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_15</name>
+			<pose>8.0 2.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_16</name>
+			<pose>8.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_17</name>
+			<pose>8.0 7.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_18</name>
+			<pose>8.0 10.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_19</name>
+			<pose>8.0 12.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_20</name>
+			<pose>8.0 15.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_21</name>
+			<pose>12.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_22</name>
+			<pose>12.0 2.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_23</name>
+			<pose>12.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_24</name>
+			<pose>12.0 7.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_25</name>
+			<pose>12.0 10.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_26</name>
+			<pose>12.0 12.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_27</name>
+			<pose>12.0 15.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_28</name>
+			<pose>16.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_29</name>
+			<pose>16.0 2.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_30</name>
+			<pose>16.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_31</name>
+			<pose>16.0 7.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_32</name>
+			<pose>16.0 10.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_33</name>
+			<pose>16.0 12.5 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+		<include>
+			<name>post_34</name>
+			<pose>16.0 15.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+    
+  
+    <link name="beam_0">
+      <pose>2.0 0.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 0.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_1">
+      <pose>2.0 2.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 2.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_2">
+      <pose>2.0 5.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 5.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_3">
+      <pose>2.0 7.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 7.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_4">
+      <pose>2.0 10.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 10.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_5">
+      <pose>2.0 12.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 12.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_6">
+      <pose>2.0 15.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>2.0 15.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_7">
+      <pose>6.0 0.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 0.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_8">
+      <pose>6.0 2.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 2.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_9">
+      <pose>6.0 5.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 5.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_10">
+      <pose>6.0 7.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 7.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_11">
+      <pose>6.0 10.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 10.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_12">
+      <pose>6.0 12.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 12.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_13">
+      <pose>6.0 15.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>6.0 15.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_14">
+      <pose>10.0 0.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 0.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_15">
+      <pose>10.0 2.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 2.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_16">
+      <pose>10.0 5.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 5.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_17">
+      <pose>10.0 7.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 7.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_18">
+      <pose>10.0 10.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 10.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_19">
+      <pose>10.0 12.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 12.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_20">
+      <pose>10.0 15.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>10.0 15.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_21">
+      <pose>14.0 0.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 0.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_22">
+      <pose>14.0 2.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 2.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_23">
+      <pose>14.0 5.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 5.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_24">
+      <pose>14.0 7.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 7.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_25">
+      <pose>14.0 10.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 10.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_26">
+      <pose>14.0 12.5 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 12.5 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="beam_27">
+      <pose>14.0 15.0 1.81 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size>4.0 0.1 0.02</size></box></geometry>
+        <material>
+	  <script>
+	    <name>Gazebo/Wood</name>
+	  </script>
+        </material>
+      </visual>
+    <inertial>
+      <pose>14.0 15.0 1.81 0 0 0</pose>
+      <mass>5</mass>
+      <inertia>
+        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>6.670833333333334</iyy><iyz>0.0</iyz><izz>6.666833333333333</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    
+  </model>
+</sdf>
