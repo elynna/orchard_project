@@ -57,6 +57,13 @@ tree_h = 1.8
 baseBranch_r = 0.04 # also used as baseBranch radius
 baseBranch_m = 10
 baseBranch_l = col_dist-crossbeam_w
+vine_h = 0.05
+vine_r = 0.01
+vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
+vine_m = 5
+vine_z = tree_h
+vine_pitch = Math::atan2((row_dist/2),vine_h)
+vine_num = 3 # number of vines per baseBranch
 fruit_num = 100
 fruit_mean_z = 1.75
 fruit_r = 0.022
@@ -64,7 +71,6 @@ fruit_m = 0.05
 # diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
 diff_min = fruit_r
 diff_max = fruit_r*5
-PI = 3.14159265359
 
 fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
 tree_num = col_num*row_num
@@ -141,7 +147,7 @@ end
 		((col_dist/2)..(col_num)*col_dist).step(col_dist).each do |y|
   %>
     <link name="baseBranch_<%= counter %>">
-      <pose><%= x %> <%= y %> <%= tree_h+baseBranch_r/2 %> <%= PI/2 %> 0 0</pose>
+      <pose><%= x %> <%= y %> <%= tree_h %> <%= Math::PI/2 %> 0 0</pose>
       <collision name="collision">
         <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
       </collision>
@@ -161,6 +167,51 @@ end
 		end
     end %>
     
+	<% # Create vines/branches that stretch across the columns of tree trunks %>
+  <%
+	counter = 0
+	((row_dist/4)..(row_num-1)*row_dist).step(row_dist).each do |x|
+		((col_dist/2)..(col_num)*col_dist).step(col_dist).each do |y|
+  %>
+    <link name="vine_<%= counter %>">
+      <pose><%= x %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 <%= vine_pitch %> 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass><%= vine_m %></mass>
+      <inertia>
+        <ixx><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></iyy><iyz>0.0</iyz><izz><%= vine_m*vine_r*vine_r/2 %></izz>
+      </inertia>
+    </inertial>
+    </link>
+    
+    <% counter += 1 %>
+    <link name="vine_<%= counter %>">
+      <pose><%= x + row_dist/2 %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 <%= -(vine_pitch) %> 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass><%= vine_m %></mass>
+      <inertia>
+        <ixx><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></iyy><iyz>0.0</iyz><izz><%= vine_m*vine_r*vine_r/2 %></izz>
+      </inertia>
+    </inertial>
+    </link>
+		<% counter += 1
+		end
+    end %>
     
     
 	<% # Place fruit models in pergola %>
