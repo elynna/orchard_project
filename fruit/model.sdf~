@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="fruit">
+  <static>true</static> <!-- Fruit static for testing stages -->
+    <link name="fruit">
+      <pose>0 0 -0.022 0 0 0</pose>
+
+      <collision name="fruit_collision">
+        <geometry>
+          <sphere>
+            <radius>.022</radius>
+          </sphere>
+        </geometry>
+      </collision>
+
+      <visual name="fruit_visual">
+        <geometry>
+          <sphere>
+            <radius>.022</radius>
+          </sphere>
+        </geometry>
+        <material>
+	  <script>
+		<uri>file://media/materials/scripts/gazebo.material</uri> <name>Gazebo/Red</name>
+	  </script>
+        </material>
+      </visual>
+
+    <inertial>
+      <pose>0 0 -0.022 0 0 0</pose>
+      <mass>0.01</mass>
+      <inertia>
+        <ixx>1.0</ixx>
+        <ixy>0.0</ixy>
+        <ixz>0.0</ixz>
+        <iyy>1.0</iyy>
+        <iyz>0.0</iyz>
+        <izz>1</izz>
+      </inertia>
+    </inertial>
+
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='contact_sensor' type='contact'>
+<!--
+      <plugin name="contact_plugin" filename="libcontact.so"/>
+-->
+      <contact>
+        <collision>fruit_collision</collision>
+      </contact>
+    </sensor>
+
+
+    </link>
+    
+
+  </model>
+</sdf>

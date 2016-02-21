@@ -1,16 +1,17 @@
 <?xml version='1.0'?>
 <%
 
-def getPose(number, x_max, y_max, z_mean)
+def getPose(number, x_min, y_min, x_max, y_max, z_mean)
 	if number < 2
 		anchors = 1
 	else
 		anchors = rand(1..((number/2).round))
 	end
 	fruit_locations_ = Hash.new(0)
-	for i in (0..number*3).step(3)
-		fruit_locations_[[i,0]] = rand(x_max)
-		fruit_locations_[[i,1]] = rand(y_max)
+	
+	(0...number).each do |i|
+		fruit_locations_[[i,0]] = rand(x_min...x_max)
+		fruit_locations_[[i,1]] = rand(y_min...y_max)
 		fruit_locations_[[i,2]] = z_mean+rand(-0.2..0.2)
 	end
 	return fruit_locations_
@@ -22,39 +23,41 @@ crossbeam_w = 0.1
 crossbeam_h = 0.02
 crossbeam_m = 5
 post_h = 1.8
+post_w = 0.1
 wire_length = 0.5
 trunk_height = 1.8
 col_num = 4
 row_num = 6
-col_dist = 4.0
-row_dist = 2.5
-post_tree_dist = 0.2
-# The number of wires between posts
-wire_num = 3
-fruit_num = 50
+col_dist = 1.5
+row_dist = 0.8
+post_tree_dist = 0.4
+wire_num = 3 # The number of wires between posts
+fruit_num = 100
 fruit_mean_z = 1.75
-fruit_locations = getPose(fruit_num, (col_num-1)*col_dist, (row_num-1)*row_dist, fruit_mean_z)
+fruit_r = 0.022
 #(0..array.length).step(2).each do |x|
 #	this = array[x]
 #end
-counter = 0
 if col_num < 1
-	col_num = 1
+	col_num = 1.0
 end
 if row_num < 1
-	row_num = 1
+	row_num = 1.0
 end
 if col_dist < 1
-	col_dist = 1
+	col_dist = 1.0
 end	
 if row_dist < 0.5
 	row_dist = 0.5
 end	
+fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-(post_w/2), (row_num)*row_dist-(post_w/2), fruit_mean_z)
 %>
 
 <sdf version='1.4'>
   <model name="pergola">
+	<% # Place grid of pergola posts %>
   <%
+	counter = 0
 	(0..col_num*col_dist).step(col_dist).each do |x|
 		(0..row_num*row_dist).step(row_dist).each do |y|
   %>
@@ -67,6 +70,7 @@ end
 		end
     end %>
     
+	<% # Create crossbeams across columns of posts %>
   <%
 	counter = 0
 	((col_dist/2)..(col_num-1)*col_dist+(col_dist/2)).step(col_dist).each do |x|
@@ -79,11 +83,7 @@ end
       </collision>
       <visual name="visual">
         <geometry><box><size><%= col_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
-        <material>
-	  <script>
-	    <name>Gazebo/Wood</name>
-	  </script>
-        </material>
+        <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose><%= x %> <%= y %> <%= post_h+crossbeam_h/2 %> 0 0 0</pose>
@@ -95,6 +95,34 @@ end
     </link>
 		<% counter += 1
 		end
+    end %>
+    
+	<% # Place grid of trees between posts (each tree at a fixed distance from posts) %>
+  <%
+	counter = 0
+	(0..col_num*col_dist).step(col_dist).each do |x|
+		(post_tree_dist..row_num*row_dist).step(row_dist).each do |y|
+  %>
+		<include>
+			<name>tree_<%= counter %></name>
+			<pose><%= x %> <%= y %> 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		<% counter += 1
+		end
+    end %>
+    
+	<% # Place fruit models in pergola %>
+  <%
+	counter = 0
+	(0...fruit_num).each do |i|	
+  %>
+		<include>
+			<name>fruit_<%= counter %></name>
+			<pose><%= fruit_locations[[i,0]] %> <%= fruit_locations[[i,1]] %> <%= fruit_locations[[i,2]] - fruit_r %> 0 0 0</pose>
+			<uri>model://fruit</uri>
+		</include>	
+		<% counter += 1
     end %>
     
   </model>

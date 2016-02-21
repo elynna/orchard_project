@@ -8,7 +8,7 @@
       <collision name="collision">
         <geometry>
           <box>
-            <size>4 .1 .02</size>
+            <size>2 .1 .02</size>
           </box>
         </geometry>
       </collision>
@@ -16,12 +16,12 @@
       <visual name="visual">
         <geometry>
           <box>
-            <size>4 .1 .02</size>
+            <size>2 .1 .02</size>
           </box>
         </geometry>
         <material>
 	  <script>
-	    <name>Gazebo/GreyTransparent</name>
+	    <name>Gazebo/Wood</name>
 	  </script>
         </material>
       </visual>
