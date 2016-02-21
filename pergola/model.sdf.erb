@@ -15,7 +15,7 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 	
 	
 	assign_to = 0
-	anchor_location = Hash.new(0)
+	anchor_location = Array.new(3)
 	# Determine the non-anchor fruit locations
 	(anchors..(number-1)).each do |i|
 		if anchors > 1
@@ -24,8 +24,6 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 			assign_to = 0
 		end
 		anchor_location = fruit_locations_[assign_to]
-		# testing
-		#fruit_locations_[i] = anchor_location 
 		fruit_locations_[i] = [anchor_location[0]+rand(diff_min..diff_max), anchor_location[1]+rand(diff_min..diff_max), anchor_location[2]-rand(0..diff_min) ]
 	end
 	return fruit_locations_
@@ -151,15 +149,14 @@ fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-
 			<ixx><%= 2*fruit_m*fruit_r*fruit_r/5 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= 2*fruit_m*fruit_r*fruit_r/5 %></iyy><iyz>0.0</iyz><izz><%= 2*fruit_m*fruit_r*fruit_r/5 %></izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_<%= counter %>' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_<%= counter %></collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_<%= counter %>' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_<%= counter %></collision>
+		  </contact>
+		</sensor>
 		</link>
-		
 		<% counter += 1
     end %>
     

@@ -905,7 +905,7 @@
     
 	  
 		<link name="fruit_0">
-		  <pose>3.5135315298164875 3.907262830104746 1.605692403833064 0 0 0</pose>
+		  <pose>4.4058370151311435 0.9642668692720918 1.7690699040389362 0 0 0</pose>
 		  <collision name="fruit_collision_0">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -920,18 +920,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_0' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_0</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_0' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_0</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_1">
-		  <pose>1.937853082181581 4.006751116856202 1.9264009132150126 0 0 0</pose>
+		  <pose>4.026707734178045 4.414871418981387 1.8391227432614488 0 0 0</pose>
 		  <collision name="fruit_collision_1">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -946,18 +945,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_1' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_1</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_1' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_1</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_2">
-		  <pose>1.801512995966086 2.730208692290423 1.7680549765027018 0 0 0</pose>
+		  <pose>0.1700539040876704 3.368451861597679 1.9191203395310086 0 0 0</pose>
 		  <collision name="fruit_collision_2">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -972,18 +970,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_2' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_2</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_2' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_2</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_3">
-		  <pose>1.4920568674555792 0.19245060216203513 1.8963741962120508 0 0 0</pose>
+		  <pose>0.13861576454295466 2.803893478156468 1.6506222066158214 0 0 0</pose>
 		  <collision name="fruit_collision_3">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -998,18 +995,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_3' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_3</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_3' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_3</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_4">
-		  <pose>3.4328860357138775 0.12708911411825824 1.5348597514773576 0 0 0</pose>
+		  <pose>1.9407442649263142 4.4522938469311795 1.6595950037007487 0 0 0</pose>
 		  <collision name="fruit_collision_4">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1024,18 +1020,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_4' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_4</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_4' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_4</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_5">
-		  <pose>2.1770776665458196 2.1370632163717556 1.8734731076290747 0 0 0</pose>
+		  <pose>3.1723048921510206 0.8700844465104168 1.8407472896824608 0 0 0</pose>
 		  <collision name="fruit_collision_5">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1050,18 +1045,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_5' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_5</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_5' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_5</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_6">
-		  <pose>4.919768616097699 3.1950884700736024 1.8023512561135113 0 0 0</pose>
+		  <pose>2.5850428735887014 0.5571743750824278 1.6280215807163347 0 0 0</pose>
 		  <collision name="fruit_collision_6">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1076,18 +1070,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_6' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_6</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_6' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_6</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_7">
-		  <pose>5.114327328887049 1.9690140107545495 1.8332826778203983 0 0 0</pose>
+		  <pose>1.4275722416359238 2.973421812058977 1.5491305693682156 0 0 0</pose>
 		  <collision name="fruit_collision_7">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1102,18 +1095,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_7' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_7</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_7' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_7</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_8">
-		  <pose>3.2898409242457727 3.191237946924233 1.9093310293650687 0 0 0</pose>
+		  <pose>1.0098296587705555 2.539457169186385 1.8761543984506481 0 0 0</pose>
 		  <collision name="fruit_collision_8">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1128,18 +1120,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_8' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_8</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_8' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_8</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_9">
-		  <pose>4.2711143705886 2.9212052913476114 1.6362793608920039 0 0 0</pose>
+		  <pose>3.582623516833575 1.471762808464821 1.6031390058103672 0 0 0</pose>
 		  <collision name="fruit_collision_9">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1154,18 +1145,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_9' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_9</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_9' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_9</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_10">
-		  <pose>1.4380596545916655 1.8011704443969552 1.6338786690188805 0 0 0</pose>
+		  <pose>4.001970060274889 4.592437591584575 1.709338350631554 0 0 0</pose>
 		  <collision name="fruit_collision_10">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1180,18 +1170,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_10' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_10</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_10' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_10</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_11">
-		  <pose>1.0314870300516605 4.497848914987983 1.6294168768098058 0 0 0</pose>
+		  <pose>0.1883520945526742 1.2243662622373368 1.6000216943631769 0 0 0</pose>
 		  <collision name="fruit_collision_11">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1206,18 +1195,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_11' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_11</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_11' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_11</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_12">
-		  <pose>2.433792093988729 3.6380050020048156 1.6517472913841416 0 0 0</pose>
+		  <pose>0.7692352915004508 3.8431952022079763 1.844187179928975 0 0 0</pose>
 		  <collision name="fruit_collision_12">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1232,18 +1220,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_12' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_12</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_12' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_12</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_13">
-		  <pose>2.3638689008113105 2.077038977262759 1.6269259753376213 0 0 0</pose>
+		  <pose>5.65801090553396 1.6551972898625693 1.8563263005408877 0 0 0</pose>
 		  <collision name="fruit_collision_13">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1258,18 +1245,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_13' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_13</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_13' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_13</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_14">
-		  <pose>4.337153710791026 3.8454660437630683 1.7052051671549153 0 0 0</pose>
+		  <pose>3.06715295736997 3.6985677621723227 1.6125777992001826 0 0 0</pose>
 		  <collision name="fruit_collision_14">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1284,18 +1270,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_14' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_14</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_14' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_14</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_15">
-		  <pose>5.606881592766206 3.956139006275665 1.6718266748883077 0 0 0</pose>
+		  <pose>3.170107785124399 3.100082233202412 1.7135360919368379 0 0 0</pose>
 		  <collision name="fruit_collision_15">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1310,18 +1295,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_15' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_15</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_15' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_15</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_16">
-		  <pose>0.7173088845949763 2.6262493473270534 1.8705607995692943 0 0 0</pose>
+		  <pose>1.1882242569720511 4.237988060652008 1.917084866475991 0 0 0</pose>
 		  <collision name="fruit_collision_16">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1336,18 +1320,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_16' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_16</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_16' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_16</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_17">
-		  <pose>3.758640290660004 1.094287526544518 1.7674049798046163 0 0 0</pose>
+		  <pose>2.5335060109833183 1.1651459029180764 1.5308257137218422 0 0 0</pose>
 		  <collision name="fruit_collision_17">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1362,18 +1345,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_17' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_17</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_17' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_17</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_18">
-		  <pose>3.4687548216346107 0.1722142555316314 1.5242301391715032 0 0 0</pose>
+		  <pose>2.068393084637411 4.197617682735151 1.8371725454014676 0 0 0</pose>
 		  <collision name="fruit_collision_18">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1388,18 +1370,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_18' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_18</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_18' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_18</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_19">
-		  <pose>2.0028293859601995 4.1347904829124085 1.9262549967200047 0 0 0</pose>
+		  <pose>0.47152318239614294 1.8476160614270543 1.5996809355421062 0 0 0</pose>
 		  <collision name="fruit_collision_19">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1414,18 +1395,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_19' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_19</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_19' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_19</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_20">
-		  <pose>0.7735401615996962 2.663200980378316 1.8560833300483057 0 0 0</pose>
+		  <pose>1.7930341048797314 1.4416623646429956 1.83050346005426 0 0 0</pose>
 		  <collision name="fruit_collision_20">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1440,18 +1420,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_20' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_20</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_20' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_20</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_21">
-		  <pose>3.8024106331668643 1.1798405136576595 1.7657569235098092 0 0 0</pose>
+		  <pose>3.2531726950744764 0.984765928504963 1.838154175802329 0 0 0</pose>
 		  <collision name="fruit_collision_21">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1466,18 +1445,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_21' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_21</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_21' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_21</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_22">
-		  <pose>3.6303098119578516 4.033733008942704 1.5837187721863293 0 0 0</pose>
+		  <pose>4.056557467621151 4.6803579114175715 1.6970517445251223 0 0 0</pose>
 		  <collision name="fruit_collision_22">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1492,18 +1470,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_22' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_22</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_22' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_22</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_23">
-		  <pose>5.668388878480453 3.9999125727943072 1.6567335696748005 0 0 0</pose>
+		  <pose>5.716057932330731 1.7487174704732087 1.8507003640827362 0 0 0</pose>
 		  <collision name="fruit_collision_23">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1518,18 +1495,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_23' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_23</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_23' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_23</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_24">
-		  <pose>0.8473796967036666 2.6724211391885606 1.8690976143877298 0 0 0</pose>
+		  <pose>2.6081791140119837 0.6838402642329455 1.6174429753375938 0 0 0</pose>
 		  <collision name="fruit_collision_24">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1544,18 +1520,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_24' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_24</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_24' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_24</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_25">
-		  <pose>3.5539886458872885 3.9713787212004714 1.6054544600733154 0 0 0</pose>
+		  <pose>0.819536353060589 3.9276378365847124 1.8245019295809368 0 0 0</pose>
 		  <collision name="fruit_collision_25">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1570,18 +1545,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_25' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_25</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_25' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_25</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_26">
-		  <pose>4.993796097050745 3.2228884672531226 1.7950270051146684 0 0 0</pose>
+		  <pose>4.476441368380348 1.0309957817573583 1.76470010247186 0 0 0</pose>
 		  <collision name="fruit_collision_26">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1596,18 +1570,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_26' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_26</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_26' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_26</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_27">
-		  <pose>3.562412083080087 3.992647486465743 1.5933009992057223 0 0 0</pose>
+		  <pose>0.23113162298314546 2.897654919302279 1.6480757383094782 0 0 0</pose>
 		  <collision name="fruit_collision_27">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1622,18 +1595,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_27' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_27</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_27' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_27</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_28">
-		  <pose>1.5008497371986131 1.908626338842578 1.6238313788993526 0 0 0</pose>
+		  <pose>1.8408974209494728 1.5537030201820037 1.8208260390989746 0 0 0</pose>
 		  <collision name="fruit_collision_28">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1648,18 +1620,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_28' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_28</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_28' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_28</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_29">
-		  <pose>2.447317846312378 2.1520202500916494 1.6141112178530985 0 0 0</pose>
+		  <pose>2.638990278612607 0.6106390551280988 1.6186085073296845 0 0 0</pose>
 		  <collision name="fruit_collision_29">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1674,18 +1645,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_29' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_29</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_29' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_29</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_30">
-		  <pose>1.526333057416271 1.8589203182416478 1.6145653048565372 0 0 0</pose>
+		  <pose>3.2406092118236516 3.161041456218378 1.7029761755101607 0 0 0</pose>
 		  <collision name="fruit_collision_30">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1700,18 +1670,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_30' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_30</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_30' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_30</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_31">
-		  <pose>2.46676658826724 2.1697797827933094 1.6219389343016908 0 0 0</pose>
+		  <pose>4.11935038513216 4.493730929043643 1.8240703380669583 0 0 0</pose>
 		  <collision name="fruit_collision_31">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1726,18 +1695,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_31' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_31</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_31' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_31</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_32">
-		  <pose>3.8182971750967627 1.2238027072667939 1.7669970263994323 0 0 0</pose>
+		  <pose>4.515466515184257 0.9986536165831285 1.7543963683669315 0 0 0</pose>
 		  <collision name="fruit_collision_32">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1752,18 +1720,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_32' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_32</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_32' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_32</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_33">
-		  <pose>4.463197196329952 3.934941501179603 1.7041675067278057 0 0 0</pose>
+		  <pose>2.124454253217041 4.31265270357938 1.83425703535059 0 0 0</pose>
 		  <collision name="fruit_collision_33">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1778,18 +1745,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_33' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_33</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_33' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_33</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_34">
-		  <pose>1.5669062614876557 0.2705530443879465 1.886537313200146 0 0 0</pose>
+		  <pose>0.2651732313929416 3.4707301650423075 1.9173670711294575 0 0 0</pose>
 		  <collision name="fruit_collision_34">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1804,18 +1770,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_34' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_34</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_34' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_34</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_35">
-		  <pose>2.2232156644488983 2.1688577857649185 1.8560346922472413 0 0 0</pose>
+		  <pose>3.1649179626359194 3.727685103780002 1.5941730081330971 0 0 0</pose>
 		  <collision name="fruit_collision_35">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1830,18 +1795,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_35' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_35</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_35' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_35</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_36">
-		  <pose>1.9659436509663477 4.067435201247655 1.9084268733729814 0 0 0</pose>
+		  <pose>4.063176339999154 4.6589397462563715 1.7087827119157044 0 0 0</pose>
 		  <collision name="fruit_collision_36">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1856,18 +1820,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_36' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_36</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_36' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_36</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_37">
-		  <pose>5.2389150550243 2.0110857201863843 1.8205854752281203 0 0 0</pose>
+		  <pose>3.296616254462304 3.2136258590089026 1.7059957386413351 0 0 0</pose>
 		  <collision name="fruit_collision_37">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1882,18 +1845,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_37' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_37</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_37' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_37</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_38">
-		  <pose>2.408041102477379 2.161241042033617 1.6095236986642927 0 0 0</pose>
+		  <pose>4.497248470257077 1.0935888075592772 1.7672955325547923 0 0 0</pose>
 		  <collision name="fruit_collision_38">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1908,18 +1870,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_38' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_38</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_38' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_38</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_39">
-		  <pose>2.473224085731068 2.113488660757872 1.6116738393420176 0 0 0</pose>
+		  <pose>3.2814245876448935 0.9723683160047201 1.8322379750864115 0 0 0</pose>
 		  <collision name="fruit_collision_39">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1934,18 +1895,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_39' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_39</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_39' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_39</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_40">
-		  <pose>3.6079704034782334 3.988533343149561 1.5989030714025467 0 0 0</pose>
+		  <pose>4.120644166761928 4.469930138499701 1.8277386871037622 0 0 0</pose>
 		  <collision name="fruit_collision_40">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1960,18 +1920,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_40' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_40</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_40' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_40</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_41">
-		  <pose>5.713074264649207 4.069871568141222 1.6563400864171707 0 0 0</pose>
+		  <pose>1.1069923403676363 2.6086302669661263 1.8543518879587335 0 0 0</pose>
 		  <collision name="fruit_collision_41">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1986,18 +1945,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_41' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_41</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_41' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_41</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_42">
-		  <pose>4.306694470808142 2.9471494668203464 1.6317427119444945 0 0 0</pose>
+		  <pose>1.0597630500150856 2.6340519537983984 1.866939998121591 0 0 0</pose>
 		  <collision name="fruit_collision_42">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2012,18 +1970,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_42' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_42</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_42' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_42</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_43">
-		  <pose>2.4461939293946973 2.170079580162638 1.6267844494407613 0 0 0</pose>
+		  <pose>4.447735841764672 1.020721263023828 1.7689329844105266 0 0 0</pose>
 		  <collision name="fruit_collision_43">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2038,18 +1995,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_43' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_43</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_43' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_43</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_44">
-		  <pose>1.9288433929867652 2.8035829615983845 1.7527895040843564 0 0 0</pose>
+		  <pose>0.195133567050008 2.893559355367232 1.6443875741496943 0 0 0</pose>
 		  <collision name="fruit_collision_44">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2064,18 +2020,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_44' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_44</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_44' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_44</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_45">
-		  <pose>0.7476125150002246 2.712466746704629 1.8656034194975113 0 0 0</pose>
+		  <pose>5.757296996958302 1.7504595059676946 1.8538393721734872 0 0 0</pose>
 		  <collision name="fruit_collision_45">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2090,18 +2045,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_45' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_45</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_45' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_45</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_46">
-		  <pose>5.03181778935333 3.2408381329884643 1.7921529915062573 0 0 0</pose>
+		  <pose>2.6634653213062363 0.6142152225598245 1.619366197027281 0 0 0</pose>
 		  <collision name="fruit_collision_46">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2116,18 +2070,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_46' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_46</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_46' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_46</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_47">
-		  <pose>1.5600068996180896 0.3236076108863235 1.87581616197183 0 0 0</pose>
+		  <pose>2.1387245443576584 4.324834471226696 1.8231952414747052 0 0 0</pose>
 		  <collision name="fruit_collision_47">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2142,18 +2095,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_47' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_47</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_47' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_47</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_48">
-		  <pose>3.6008996978553167 3.9678168737456776 1.5909357350381883 0 0 0</pose>
+		  <pose>3.2405246077812953 0.9607421766865671 1.8287240340465347 0 0 0</pose>
 		  <collision name="fruit_collision_48">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2168,18 +2120,17 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_48' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_48</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_48' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_48</collision>
+		  </contact>
+		</sensor>
 		</link>
 		
-		
 		<link name="fruit_49">
-		  <pose>3.5195246420568953 0.2538350176312218 1.5281168795340072 0 0 0</pose>
+		  <pose>0.16737998933034076 2.8932738843483623 1.6450300704472436 0 0 0</pose>
 		  <collision name="fruit_collision_49">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2194,15 +2145,14 @@
 			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
 		  </inertia>
 		</inertial>
-<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
-    <sensor name='fruit_contact_49' type='contact'>
-<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
-      <contact>
-        <collision>fruit_collision_49</collision>
-      </contact>
-    </sensor>
+	<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+		<sensor name='fruit_contact_49' type='contact'>
+	<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+		  <contact>
+			<collision>fruit_collision_49</collision>
+		  </contact>
+		</sensor>
 		</link>
-		
 		
     
   </model>
