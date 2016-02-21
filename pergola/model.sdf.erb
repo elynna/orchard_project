@@ -38,35 +38,43 @@ post_h = 1.8
 post_w = 0.1
 wire_length = 0.5
 trunk_height = 1.8
-col_num = 4
-row_num = 6
-col_dist = 1.5
-row_dist = 0.8
+row_num = 4
+col_num = 6 # number of trees (posts have one more)
+row_dist = 1.5
+col_dist = 0.8
 post_tree_dist = 0.4
 wire_num = 3 # The number of wires between posts
-fruit_num = 50
+fruit_num = 100
 fruit_mean_z = 1.75
 fruit_r = 0.022
 fruit_m = 0.05
 # diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
 diff_min = fruit_r
-diff_max = fruit_r*6
+diff_max = fruit_r*5
 #(0..array.length).step(2).each do |x|
 #	this = array[x]
 #end
-if col_num < 1
-	col_num = 1.0
-end
 if row_num < 1
 	row_num = 1.0
 end
-if col_dist < 1
-	col_dist = 1.0
+if col_num < 1
+	col_num = 1.0
+end
+if row_dist < 1
+	row_dist = 1.0
 end	
-if row_dist < 0.5
-	row_dist = 0.5
+if col_dist < 0.5
+	col_dist = 0.5
 end	
-fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-(post_w/2), (row_num)*row_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
+fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
+tree_num = col_num*row_num
+tree_locations = Array.new()
+
+(0..row_num*row_dist).step(row_dist).each do |x|
+	(post_tree_dist..col_num*col_dist).step(col_dist).each do |y|
+		tree_locations.push([x, y])
+	end
+end
 %>
 
 <sdf version='1.4'>
@@ -74,8 +82,8 @@ fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-
 	<% # Place grid of pergola posts %>
   <%
 	counter = 0
-	(0..col_num*col_dist).step(col_dist).each do |x|
-		(0..row_num*row_dist).step(row_dist).each do |y|
+	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
+		(0..col_num*col_dist).step(col_dist).each do |y|
   %>
 		<include>
 			<name>post_<%= counter %></name>
@@ -89,23 +97,23 @@ fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-
 	<% # Create crossbeams across columns of posts %>
   <%
 	counter = 0
-	((col_dist/2)..(col_num-1)*col_dist+(col_dist/2)).step(col_dist).each do |x|
-		(0..row_num*row_dist).step(row_dist).each do |y|
+	((row_dist/2)..(row_num-2)*row_dist+(row_dist/2)).step(row_dist).each do |x|
+		(0..col_num*col_dist).step(col_dist).each do |y|
   %>
     <link name="beam_<%= counter %>">
       <pose><%= x %> <%= y %> <%= post_h+crossbeam_h/2 %> 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size><%= col_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
+        <geometry><box><size><%= row_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size><%= col_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
+        <geometry><box><size><%= row_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass><%= crossbeam_m %></mass>
       <inertia>
-        <ixx><%= crossbeam_m*(crossbeam_w*crossbeam_w+crossbeam_h*crossbeam_h)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= crossbeam_m*(crossbeam_w*crossbeam_w+col_dist*col_dist)/12 %></iyy><iyz>0.0</iyz><izz><%= crossbeam_m*(col_dist*col_dist+crossbeam_h*crossbeam_h)/12 %></izz>
+        <ixx><%= crossbeam_m*(crossbeam_w*crossbeam_w+crossbeam_h*crossbeam_h)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= crossbeam_m*(crossbeam_w*crossbeam_w+row_dist*row_dist)/12 %></iyy><iyz>0.0</iyz><izz><%= crossbeam_m*(row_dist*row_dist+crossbeam_h*crossbeam_h)/12 %></izz>
       </inertia>
     </inertial>
     </link>
@@ -116,16 +124,14 @@ fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (col_num)*col_dist-
 	<% # Place grid of trees between posts (each tree at a fixed distance from posts) %>
   <%
 	counter = 0
-	(0..col_num*col_dist).step(col_dist).each do |x|
-		(post_tree_dist..row_num*row_dist).step(row_dist).each do |y|
+	(0..tree_num-1).each do |i|
   %>
 		<include>
 			<name>tree_<%= counter %></name>
-			<pose><%= x %> <%= y %> 0 0 0 0</pose>
+			<pose><%= tree_locations[i][0] %> <%= tree_locations[i][1] %> 0 0 0 0</pose>
 			<uri>model://tree_trunk</uri>
 		</include>	
 		<% counter += 1
-		end
     end %>
     
 	<% # Place fruit models in pergola %>
