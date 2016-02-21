@@ -30,30 +30,11 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 
 end
 
-
-crossbeam_w = 0.1
-crossbeam_h = 0.02
-crossbeam_m = 5
-post_h = 1.8
-post_w = 0.1
-wire_length = 0.5
-trunk_height = 1.8
 row_num = 4
 col_num = 6 # number of trees (posts have one more)
 row_dist = 1.5
 col_dist = 0.8
 post_tree_dist = 0.4
-wire_num = 3 # The number of wires between posts
-fruit_num = 100
-fruit_mean_z = 1.75
-fruit_r = 0.022
-fruit_m = 0.05
-# diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
-diff_min = fruit_r
-diff_max = fruit_r*5
-#(0..array.length).step(2).each do |x|
-#	this = array[x]
-#end
 if row_num < 1
 	row_num = 1.0
 end
@@ -65,7 +46,26 @@ if row_dist < 1
 end	
 if col_dist < 0.5
 	col_dist = 0.5
-end	
+end
+crossbeam_w = 0.06
+crossbeam_h = 0.02
+crossbeam_m = 5
+post_h = 1.8
+post_w = 0.1
+wire_length = 0.5
+tree_h = 1.8
+baseBranch_r = 0.04 # also used as baseBranch radius
+baseBranch_m = 10
+baseBranch_l = col_dist-crossbeam_w
+fruit_num = 100
+fruit_mean_z = 1.75
+fruit_r = 0.022
+fruit_m = 0.05
+# diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
+diff_min = fruit_r
+diff_max = fruit_r*5
+PI = 3.14159265359
+
 fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
 tree_num = col_num*row_num
 tree_locations = Array.new()
@@ -133,6 +133,35 @@ end
 		</include>	
 		<% counter += 1
     end %>
+    
+	<% # Create base branches along rows of trees. (Base branches are equivalent to the trunk growing horizontally along pergola) %>
+  <%
+	counter = 0
+	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
+		((col_dist/2)..(col_num)*col_dist).step(col_dist).each do |y|
+  %>
+    <link name="baseBranch_<%= counter %>">
+      <pose><%= x %> <%= y %> <%= tree_h+baseBranch_r/2 %> <%= PI/2 %> 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass><%= baseBranch_m %></mass>
+      <inertia>
+        <ixx><%= baseBranch_m*(3*baseBranch_r*baseBranch_r+baseBranch_l*baseBranch_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= baseBranch_m*(3*baseBranch_r*baseBranch_r+baseBranch_l*baseBranch_l)/12 %></iyy><iyz>0.0</iyz><izz><%= baseBranch_m*baseBranch_r*baseBranch_r/2 %></izz>
+      </inertia>
+    </inertial>
+    </link>
+		<% counter += 1
+		end
+    end %>
+    
+    
     
 	<% # Place fruit models in pergola %>
   <%

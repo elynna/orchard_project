@@ -177,17 +177,17 @@
     <link name="beam_0">
       <pose>0.75 0.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -195,17 +195,17 @@
     <link name="beam_1">
       <pose>0.75 0.8 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -213,17 +213,17 @@
     <link name="beam_2">
       <pose>0.75 1.6 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -231,17 +231,17 @@
     <link name="beam_3">
       <pose>0.75 2.4000000000000004 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -249,17 +249,17 @@
     <link name="beam_4">
       <pose>0.75 3.2 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -267,17 +267,17 @@
     <link name="beam_5">
       <pose>0.75 4.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -285,17 +285,17 @@
     <link name="beam_6">
       <pose>0.75 4.800000000000001 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -303,17 +303,17 @@
     <link name="beam_7">
       <pose>2.25 0.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -321,17 +321,17 @@
     <link name="beam_8">
       <pose>2.25 0.8 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -339,17 +339,17 @@
     <link name="beam_9">
       <pose>2.25 1.6 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -357,17 +357,17 @@
     <link name="beam_10">
       <pose>2.25 2.4000000000000004 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -375,17 +375,17 @@
     <link name="beam_11">
       <pose>2.25 3.2 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -393,17 +393,17 @@
     <link name="beam_12">
       <pose>2.25 4.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -411,17 +411,17 @@
     <link name="beam_13">
       <pose>2.25 4.800000000000001 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -429,17 +429,17 @@
     <link name="beam_14">
       <pose>3.75 0.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -447,17 +447,17 @@
     <link name="beam_15">
       <pose>3.75 0.8 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -465,17 +465,17 @@
     <link name="beam_16">
       <pose>3.75 1.6 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -483,17 +483,17 @@
     <link name="beam_17">
       <pose>3.75 2.4000000000000004 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -501,17 +501,17 @@
     <link name="beam_18">
       <pose>3.75 3.2 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -519,17 +519,17 @@
     <link name="beam_19">
       <pose>3.75 4.0 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -537,17 +537,17 @@
     <link name="beam_20">
       <pose>3.75 4.800000000000001 1.81 0 0 0</pose>
       <collision name="collision">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
       </collision>
       <visual name="visual">
-        <geometry><box><size>1.5 0.1 0.02</size></box></geometry>
+        <geometry><box><size>1.5 0.06 0.02</size></box></geometry>
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
-        <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
+        <ixx>0.0016666666666666668</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9390000000000001</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
       </inertia>
     </inertial>
     </link>
@@ -700,8 +700,444 @@
 		
     
 	  
+    <link name="baseBranch_0">
+      <pose>0.0 0.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_1">
+      <pose>0.0 1.2000000000000002 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_2">
+      <pose>0.0 2.0 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_3">
+      <pose>0.0 2.8000000000000003 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_4">
+      <pose>0.0 3.6 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_5">
+      <pose>0.0 4.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_6">
+      <pose>1.5 0.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_7">
+      <pose>1.5 1.2000000000000002 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_8">
+      <pose>1.5 2.0 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_9">
+      <pose>1.5 2.8000000000000003 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_10">
+      <pose>1.5 3.6 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_11">
+      <pose>1.5 4.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_12">
+      <pose>3.0 0.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_13">
+      <pose>3.0 1.2000000000000002 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_14">
+      <pose>3.0 2.0 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_15">
+      <pose>3.0 2.8000000000000003 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_16">
+      <pose>3.0 3.6 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_17">
+      <pose>3.0 4.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_18">
+      <pose>4.5 0.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_19">
+      <pose>4.5 1.2000000000000002 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_20">
+      <pose>4.5 2.0 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_21">
+      <pose>4.5 2.8000000000000003 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_22">
+      <pose>4.5 3.6 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    <link name="baseBranch_23">
+      <pose>4.5 4.4 1.82 1.570796326795 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.04</radius> <length>0.74</length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>10</mass>
+      <inertia>
+        <ixx>0.4603333333333333</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.4603333333333333</iyy><iyz>0.0</iyz><izz>0.008</izz>
+      </inertia>
+    </inertial>
+    </link>
+		
+    
+    
+    
+	  
 		<link name="fruit_0">
-		  <pose>0.2659711898088395 3.269990874081428 1.7156890219509984 0 0 0</pose>
+		  <pose>3.7896406589227207 3.6174549580560234 1.7747168790540586 0 0 0</pose>
 		  <collision name="fruit_collision_0">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -726,7 +1162,7 @@
 		</link>
 		
 		<link name="fruit_1">
-		  <pose>0.3876054649883609 3.1198763184594234 1.9230603324699709 0 0 0</pose>
+		  <pose>1.1822364174997257 3.800477462624525 1.7835916428069432 0 0 0</pose>
 		  <collision name="fruit_collision_1">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -751,7 +1187,7 @@
 		</link>
 		
 		<link name="fruit_2">
-		  <pose>2.3895601769868517 0.2149116635101479 1.6258179687678715 0 0 0</pose>
+		  <pose>1.2268770735735406 4.366617128443992 1.5294631380435206 0 0 0</pose>
 		  <collision name="fruit_collision_2">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -776,7 +1212,7 @@
 		</link>
 		
 		<link name="fruit_3">
-		  <pose>1.0992703242367041 3.2763563873438897 1.8715503405807157 0 0 0</pose>
+		  <pose>2.0239279996082913 3.824181731164233 1.8515229585388289 0 0 0</pose>
 		  <collision name="fruit_collision_3">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -801,7 +1237,7 @@
 		</link>
 		
 		<link name="fruit_4">
-		  <pose>3.257994147775426 1.6227366815320463 1.5959467944821977 0 0 0</pose>
+		  <pose>1.4578297659398656 1.6654342739878942 1.7209146203586991 0 0 0</pose>
 		  <collision name="fruit_collision_4">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -826,7 +1262,7 @@
 		</link>
 		
 		<link name="fruit_5">
-		  <pose>4.392146076999553 4.216356065860075 1.6786157661072498 0 0 0</pose>
+		  <pose>4.298449944829862 0.34685799350528584 1.5566151784244824 0 0 0</pose>
 		  <collision name="fruit_collision_5">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -851,7 +1287,7 @@
 		</link>
 		
 		<link name="fruit_6">
-		  <pose>2.446823987015287 0.5409564375932635 1.566032392158171 0 0 0</pose>
+		  <pose>2.046596097295799 1.2969807077197144 1.736167733071356 0 0 0</pose>
 		  <collision name="fruit_collision_6">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -876,7 +1312,7 @@
 		</link>
 		
 		<link name="fruit_7">
-		  <pose>1.0990168784137777 2.170519364308826 1.5580940459964139 0 0 0</pose>
+		  <pose>2.041079447020769 3.509820381957447 1.8416259623392743 0 0 0</pose>
 		  <collision name="fruit_collision_7">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -901,7 +1337,7 @@
 		</link>
 		
 		<link name="fruit_8">
-		  <pose>3.186225569288565 2.950295500035247 1.7022955782799996 0 0 0</pose>
+		  <pose>0.08490550216206039 3.7292286653505697 1.7361833588965159 0 0 0</pose>
 		  <collision name="fruit_collision_8">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -926,7 +1362,7 @@
 		</link>
 		
 		<link name="fruit_9">
-		  <pose>2.4746242471968163 2.5011804499896235 1.789463421722143 0 0 0</pose>
+		  <pose>0.5041220663502682 0.8662867572763311 1.8405903575014937 0 0 0</pose>
 		  <collision name="fruit_collision_9">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -951,7 +1387,7 @@
 		</link>
 		
 		<link name="fruit_10">
-		  <pose>2.9134426875353885 3.36628424079757 1.8759994274512517 0 0 0</pose>
+		  <pose>3.1643427982832453 3.8317164890934188 1.7760179983174689 0 0 0</pose>
 		  <collision name="fruit_collision_10">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -976,7 +1412,7 @@
 		</link>
 		
 		<link name="fruit_11">
-		  <pose>3.435851490206236 0.13781151932433056 1.6285619671492806 0 0 0</pose>
+		  <pose>0.9257123855658568 4.567067868154915 1.6590336066752824 0 0 0</pose>
 		  <collision name="fruit_collision_11">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1001,7 +1437,7 @@
 		</link>
 		
 		<link name="fruit_12">
-		  <pose>3.7128060548985653 2.6276558486762043 1.8453542652597479 0 0 0</pose>
+		  <pose>3.9068238012513854 2.651033534359028 1.9009859218776517 0 0 0</pose>
 		  <collision name="fruit_collision_12">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1026,7 +1462,7 @@
 		</link>
 		
 		<link name="fruit_13">
-		  <pose>0.9173025471332602 0.486621793263369 1.5305048008240032 0 0 0</pose>
+		  <pose>4.286367433647209 4.717269457037136 1.5620660706725673 0 0 0</pose>
 		  <collision name="fruit_collision_13">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1051,7 +1487,7 @@
 		</link>
 		
 		<link name="fruit_14">
-		  <pose>1.6321166584303906 2.056081947162561 1.9146259729866597 0 0 0</pose>
+		  <pose>3.352414388756826 0.6435808967635988 1.701400564094922 0 0 0</pose>
 		  <collision name="fruit_collision_14">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1076,7 +1512,7 @@
 		</link>
 		
 		<link name="fruit_15">
-		  <pose>0.9412505436611198 2.9335142117600466 1.692250463321216 0 0 0</pose>
+		  <pose>3.0687968749420578 3.3471299083902375 1.8949419249638717 0 0 0</pose>
 		  <collision name="fruit_collision_15">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1101,7 +1537,7 @@
 		</link>
 		
 		<link name="fruit_16">
-		  <pose>3.3252810885225723 1.2401279027632681 1.847714007133285 0 0 0</pose>
+		  <pose>2.2242453055233864 0.4634118344923888 1.73461012802097 0 0 0</pose>
 		  <collision name="fruit_collision_16">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1126,7 +1562,7 @@
 		</link>
 		
 		<link name="fruit_17">
-		  <pose>3.261738878519883 4.0460474359975604 1.7378620648224388 0 0 0</pose>
+		  <pose>2.0293859189560646 3.884457174874117 1.827382697340641 0 0 0</pose>
 		  <collision name="fruit_collision_17">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1151,7 +1587,7 @@
 		</link>
 		
 		<link name="fruit_18">
-		  <pose>1.418841042997582 4.2002791861701825 1.7012251712870665 0 0 0</pose>
+		  <pose>1.5032822933708438 4.226341794097308 1.7798886956948194 0 0 0</pose>
 		  <collision name="fruit_collision_18">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1176,7 +1612,7 @@
 		</link>
 		
 		<link name="fruit_19">
-		  <pose>4.274261635026936 3.7573022949913533 1.8084210806350496 0 0 0</pose>
+		  <pose>3.2105515079492237 0.7650837090325473 1.8539054733033422 0 0 0</pose>
 		  <collision name="fruit_collision_19">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1201,7 +1637,7 @@
 		</link>
 		
 		<link name="fruit_20">
-		  <pose>1.2299145212481488 3.7528577359779507 1.549308245822974 0 0 0</pose>
+		  <pose>4.326569523343515 3.541307389010235 1.7307907250325754 0 0 0</pose>
 		  <collision name="fruit_collision_20">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1226,7 +1662,7 @@
 		</link>
 		
 		<link name="fruit_21">
-		  <pose>3.4766422134126183 3.8420075763028185 1.912480971048688 0 0 0</pose>
+		  <pose>2.848448088991411 3.6631331991632923 1.7779516415630647 0 0 0</pose>
 		  <collision name="fruit_collision_21">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1251,7 +1687,7 @@
 		</link>
 		
 		<link name="fruit_22">
-		  <pose>2.832251734658396 4.561154678782893 1.76962331881872 0 0 0</pose>
+		  <pose>3.6428708410521287 3.316481021813714 1.5625905068018224 0 0 0</pose>
 		  <collision name="fruit_collision_22">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1276,7 +1712,7 @@
 		</link>
 		
 		<link name="fruit_23">
-		  <pose>1.5483711783944285 2.5561615428815725 1.7840142274545974 0 0 0</pose>
+		  <pose>3.8861625245218714 2.526379508131559 1.76415667296666 0 0 0</pose>
 		  <collision name="fruit_collision_23">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1301,7 +1737,7 @@
 		</link>
 		
 		<link name="fruit_24">
-		  <pose>1.1349732859150121 1.301888842003375 1.8639472020053207 0 0 0</pose>
+		  <pose>4.11681899648297 1.161873791644733 1.8047681096752037 0 0 0</pose>
 		  <collision name="fruit_collision_24">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1326,7 +1762,7 @@
 		</link>
 		
 		<link name="fruit_25">
-		  <pose>2.6784357981338407 2.3664086373437434 1.8691341916195714 0 0 0</pose>
+		  <pose>2.065217541297701 3.9166971723442585 1.8201041102284936 0 0 0</pose>
 		  <collision name="fruit_collision_25">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1351,7 +1787,7 @@
 		</link>
 		
 		<link name="fruit_26">
-		  <pose>4.071074151371739 1.1629729539676612 1.9195926703806288 0 0 0</pose>
+		  <pose>2.0884296615096716 3.9467193321487843 1.8257567239786587 0 0 0</pose>
 		  <collision name="fruit_collision_26">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1376,7 +1812,7 @@
 		</link>
 		
 		<link name="fruit_27">
-		  <pose>2.8400847583803013 3.2618361882728424 1.6824072563601662 0 0 0</pose>
+		  <pose>2.3097190103327825 0.4940704529110224 1.7225828655702864 0 0 0</pose>
 		  <collision name="fruit_collision_27">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1401,7 +1837,7 @@
 		</link>
 		
 		<link name="fruit_28">
-		  <pose>2.776607847274486 4.4713871332506825 1.5359230909510415 0 0 0</pose>
+		  <pose>1.303995798649953 4.402483191757211 1.5134184489978015 0 0 0</pose>
 		  <collision name="fruit_collision_28">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1426,7 +1862,7 @@
 		</link>
 		
 		<link name="fruit_29">
-		  <pose>3.350567339619412 3.1587055967726387 1.765213419176545 0 0 0</pose>
+		  <pose>2.0544215151556346 3.9617591260073333 1.8166867673922977 0 0 0</pose>
 		  <collision name="fruit_collision_29">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1451,7 +1887,7 @@
 		</link>
 		
 		<link name="fruit_30">
-		  <pose>3.9626718604475744 4.5250124933755345 1.5676906836491409 0 0 0</pose>
+		  <pose>3.4098831821892936 0.7465405005875657 1.6906718872078033 0 0 0</pose>
 		  <collision name="fruit_collision_30">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1476,7 +1912,7 @@
 		</link>
 		
 		<link name="fruit_31">
-		  <pose>1.9893271925194171 1.1578758437351298 1.90913104780904 0 0 0</pose>
+		  <pose>0.13830616716166833 3.810483398976098 1.7273435143123839 0 0 0</pose>
 		  <collision name="fruit_collision_31">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1501,7 +1937,7 @@
 		</link>
 		
 		<link name="fruit_32">
-		  <pose>0.9687686573219719 1.5137328555595724 1.8231676291341323 0 0 0</pose>
+		  <pose>0.5375448730668285 0.9452474582557084 1.8291065200437313 0 0 0</pose>
 		  <collision name="fruit_collision_32">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1526,7 +1962,7 @@
 		</link>
 		
 		<link name="fruit_33">
-		  <pose>0.8191912538489804 0.1948920624198871 1.6796434828853444 0 0 0</pose>
+		  <pose>3.116331160750814 3.4530500126277026 1.8784633684283163 0 0 0</pose>
 		  <collision name="fruit_collision_33">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1551,7 +1987,7 @@
 		</link>
 		
 		<link name="fruit_34">
-		  <pose>0.16645527541652516 2.6550296622860348 1.7954775175199935 0 0 0</pose>
+		  <pose>4.361729186456001 0.37720848107479427 1.5447415150661927 0 0 0</pose>
 		  <collision name="fruit_collision_34">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1576,7 +2012,7 @@
 		</link>
 		
 		<link name="fruit_35">
-		  <pose>0.7286048646122208 4.2758027173167825 1.5985512323292754 0 0 0</pose>
+		  <pose>0.6016020157058488 0.8912704596856973 1.831006357075282 0 0 0</pose>
 		  <collision name="fruit_collision_35">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1601,7 +2037,7 @@
 		</link>
 		
 		<link name="fruit_36">
-		  <pose>0.8991937447859893 1.5480320865900408 1.888009675140753 0 0 0</pose>
+		  <pose>0.5935714479649359 0.9480379205498568 1.831310714615036 0 0 0</pose>
 		  <collision name="fruit_collision_36">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1626,7 +2062,7 @@
 		</link>
 		
 		<link name="fruit_37">
-		  <pose>4.293075067258453 3.754041188867683 1.9189913813829618 0 0 0</pose>
+		  <pose>3.1464090230719393 3.4334327406282417 1.8862991895332075 0 0 0</pose>
 		  <collision name="fruit_collision_37">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1651,7 +2087,7 @@
 		</link>
 		
 		<link name="fruit_38">
-		  <pose>2.039914835399584 0.6491853415679184 1.8188364528453251 0 0 0</pose>
+		  <pose>0.6029596318827776 0.941433053624831 1.8371359965410785 0 0 0</pose>
 		  <collision name="fruit_collision_38">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1676,7 +2112,7 @@
 		</link>
 		
 		<link name="fruit_39">
-		  <pose>1.957146993080086 2.944475461286322 1.8850448118809435 0 0 0</pose>
+		  <pose>2.066529280006784 3.87183980146567 1.8371100088503383 0 0 0</pose>
 		  <collision name="fruit_collision_39">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1701,7 +2137,7 @@
 		</link>
 		
 		<link name="fruit_40">
-		  <pose>1.3503076547269648 3.267407621408261 1.9149130161275445 0 0 0</pose>
+		  <pose>3.093762217720557 3.435305757087522 1.8919576530505076 0 0 0</pose>
 		  <collision name="fruit_collision_40">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1726,7 +2162,7 @@
 		</link>
 		
 		<link name="fruit_41">
-		  <pose>0.3577125029470283 4.326978535910665 1.530972736434714 0 0 0</pose>
+		  <pose>3.91871613151204 2.6104987088100238 1.7630672826353626 0 0 0</pose>
 		  <collision name="fruit_collision_41">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1751,7 +2187,7 @@
 		</link>
 		
 		<link name="fruit_42">
-		  <pose>1.0114235927065265 1.4997443463472415 1.7097891567885164 0 0 0</pose>
+		  <pose>4.360977458263823 3.5836305094774397 1.7301111376217082 0 0 0</pose>
 		  <collision name="fruit_collision_42">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1776,7 +2212,7 @@
 		</link>
 		
 		<link name="fruit_43">
-		  <pose>3.9019088073078336 1.6329458748083223 1.85352987694694 0 0 0</pose>
+		  <pose>4.180830832330311 1.2157871883849074 1.801300554712185 0 0 0</pose>
 		  <collision name="fruit_collision_43">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1801,7 +2237,7 @@
 		</link>
 		
 		<link name="fruit_44">
-		  <pose>1.2279952862474222 1.3834964044819136 1.8460006596024434 0 0 0</pose>
+		  <pose>2.1541988097431326 1.3486647213842822 1.7251979116627434 0 0 0</pose>
 		  <collision name="fruit_collision_44">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1826,7 +2262,7 @@
 		</link>
 		
 		<link name="fruit_45">
-		  <pose>3.291345625541168 4.083551509913289 1.7369861687932486 0 0 0</pose>
+		  <pose>3.258044143546052 3.918585053069414 1.771721327302883 0 0 0</pose>
 		  <collision name="fruit_collision_45">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1851,7 +2287,7 @@
 		</link>
 		
 		<link name="fruit_46">
-		  <pose>3.4084576798441333 1.2897595758476748 1.8338834552287517 0 0 0</pose>
+		  <pose>3.45728953749639 0.7219389159861422 1.6886858107925393 0 0 0</pose>
 		  <collision name="fruit_collision_46">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1876,7 +2312,7 @@
 		</link>
 		
 		<link name="fruit_47">
-		  <pose>3.9441840572374356 1.6782451025628573 1.842312404020634 0 0 0</pose>
+		  <pose>4.331721740252711 0.4255316512809208 1.537745081710142 0 0 0</pose>
 		  <collision name="fruit_collision_47">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1901,7 +2337,7 @@
 		</link>
 		
 		<link name="fruit_48">
-		  <pose>0.4154710937671446 4.363959157471652 1.527248557138747 0 0 0</pose>
+		  <pose>4.341835883508139 4.80167337949275 1.555032852555237 0 0 0</pose>
 		  <collision name="fruit_collision_48">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1926,7 +2362,7 @@
 		</link>
 		
 		<link name="fruit_49">
-		  <pose>0.8640604798918223 0.27696406654511496 1.6757003650862994 0 0 0</pose>
+		  <pose>1.5783631169473176 4.302058417396665 1.7669945306940897 0 0 0</pose>
 		  <collision name="fruit_collision_49">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1951,7 +2387,7 @@
 		</link>
 		
 		<link name="fruit_50">
-		  <pose>0.9833746158349326 3.0129180164511364 1.6858086474612493 0 0 0</pose>
+		  <pose>2.1459504195312227 3.566489930748186 1.823526118649197 0 0 0</pose>
 		  <collision name="fruit_collision_50">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -1976,7 +2412,7 @@
 		</link>
 		
 		<link name="fruit_51">
-		  <pose>1.4786232214353656 4.245204004154422 1.685316529736789 0 0 0</pose>
+		  <pose>2.1464790937219034 3.5730347544341816 1.8297858690801903 0 0 0</pose>
 		  <collision name="fruit_collision_51">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2001,7 +2437,7 @@
 		</link>
 		
 		<link name="fruit_52">
-		  <pose>1.1517779626039482 2.2687968500037523 1.5467816634307574 0 0 0</pose>
+		  <pose>3.1943297799713397 3.9343929871257464 1.7625309362366184 0 0 0</pose>
 		  <collision name="fruit_collision_52">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2026,7 +2462,7 @@
 		</link>
 		
 		<link name="fruit_53">
-		  <pose>1.1462582548435205 2.2503119469026194 1.5554628558071046 0 0 0</pose>
+		  <pose>4.20800557539799 1.218496376171378 1.7893829098581882 0 0 0</pose>
 		  <collision name="fruit_collision_53">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2051,7 +2487,7 @@
 		</link>
 		
 		<link name="fruit_54">
-		  <pose>1.1701909803510817 2.222153106096719 1.5439836110389142 0 0 0</pose>
+		  <pose>2.316905915657118 0.5173295293465211 1.7322807325623706 0 0 0</pose>
 		  <collision name="fruit_collision_54">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2076,7 +2512,7 @@
 		</link>
 		
 		<link name="fruit_55">
-		  <pose>3.3762689910964596 3.1877769985078523 1.7522284678701017 0 0 0</pose>
+		  <pose>1.4964030170109035 1.7026419072451704 1.7055307689295358 0 0 0</pose>
 		  <collision name="fruit_collision_55">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2101,7 +2537,7 @@
 		</link>
 		
 		<link name="fruit_56">
-		  <pose>2.4678346799655233 0.2674173841488464 1.6164189569124103 0 0 0</pose>
+		  <pose>2.1001519805123015 3.8520037549091457 1.8355804826884328 0 0 0</pose>
 		  <collision name="fruit_collision_56">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2126,7 +2562,7 @@
 		</link>
 		
 		<link name="fruit_57">
-		  <pose>3.801505805888041 2.7280243234573285 1.839116406881079 0 0 0</pose>
+		  <pose>2.068807736916092 3.5527771506876653 1.8372029797805054 0 0 0</pose>
 		  <collision name="fruit_collision_57">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2151,7 +2587,7 @@
 		</link>
 		
 		<link name="fruit_58">
-		  <pose>0.9280083556352823 0.23466923426949743 1.662020927161448 0 0 0</pose>
+		  <pose>4.421197151897037 3.606725338345654 1.711353864211227 0 0 0</pose>
 		  <collision name="fruit_collision_58">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2176,7 +2612,7 @@
 		</link>
 		
 		<link name="fruit_59">
-		  <pose>2.044550727172855 3.007928908806247 1.87284681998366 0 0 0</pose>
+		  <pose>1.3288881005104278 4.414784382791784 1.522290733642841 0 0 0</pose>
 		  <collision name="fruit_collision_59">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2201,7 +2637,7 @@
 		</link>
 		
 		<link name="fruit_60">
-		  <pose>0.4595812709852164 4.364950029460551 1.5228132375019143 0 0 0</pose>
+		  <pose>3.4150071992820563 0.7078864652916597 1.6832082177077212 0 0 0</pose>
 		  <collision name="fruit_collision_60">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2226,7 +2662,7 @@
 		</link>
 		
 		<link name="fruit_61">
-		  <pose>3.5487129897799488 3.9308336912722166 1.8972244982600537 0 0 0</pose>
+		  <pose>3.312489594637053 0.8127230066342648 1.848652849880097 0 0 0</pose>
 		  <collision name="fruit_collision_61">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2251,7 +2687,7 @@
 		</link>
 		
 		<link name="fruit_62">
-		  <pose>0.40856501592097266 4.384424942397073 1.5153220960592846 0 0 0</pose>
+		  <pose>3.686990326045022 3.396930425665774 1.5554165483006221 0 0 0</pose>
 		  <collision name="fruit_collision_62">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2276,7 +2712,7 @@
 		</link>
 		
 		<link name="fruit_63">
-		  <pose>3.3840691358604165 1.3137920946855495 1.8344609558847746 0 0 0</pose>
+		  <pose>2.102660434772159 1.3721117128298268 1.7306904130241838 0 0 0</pose>
 		  <collision name="fruit_collision_63">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2301,7 +2737,7 @@
 		</link>
 		
 		<link name="fruit_64">
-		  <pose>3.2104491722224022 3.0332404800618837 1.6825608863472803 0 0 0</pose>
+		  <pose>1.5139189473830275 1.6920179179543622 1.704855168903854 0 0 0</pose>
 		  <collision name="fruit_collision_64">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2326,7 +2762,7 @@
 		</link>
 		
 		<link name="fruit_65">
-		  <pose>4.315395130721635 3.7864539967606445 1.8070732781801502 0 0 0</pose>
+		  <pose>4.413743970979201 3.5656213336060976 1.729316066584224 0 0 0</pose>
 		  <collision name="fruit_collision_65">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2351,7 +2787,7 @@
 		</link>
 		
 		<link name="fruit_66">
-		  <pose>3.5745451102004058 3.891623691476531 1.909514175560863 0 0 0</pose>
+		  <pose>2.312427469434913 0.48987964978125803 1.7230621332236757 0 0 0</pose>
 		  <collision name="fruit_collision_66">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2376,7 +2812,7 @@
 		</link>
 		
 		<link name="fruit_67">
-		  <pose>1.4384326266627454 3.367644899026584 1.9137800329279395 0 0 0</pose>
+		  <pose>1.2123293211272899 3.8280037278094294 1.7768908204377643 0 0 0</pose>
 		  <collision name="fruit_collision_67">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2401,7 +2837,7 @@
 		</link>
 		
 		<link name="fruit_68">
-		  <pose>2.859563142981034 4.600964108382786 1.7558662465054915 0 0 0</pose>
+		  <pose>1.2674581154317672 3.902043931925465 1.7658213036059152 0 0 0</pose>
 		  <collision name="fruit_collision_68">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2426,7 +2862,7 @@
 		</link>
 		
 		<link name="fruit_69">
-		  <pose>1.068729091178568 1.5520522857043422 1.702652701688259 0 0 0</pose>
+		  <pose>3.2373830183771934 0.814194928266618 1.8372532846251222 0 0 0</pose>
 		  <collision name="fruit_collision_69">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2451,7 +2887,7 @@
 		</link>
 		
 		<link name="fruit_70">
-		  <pose>2.494522226428397 0.2610077206558139 1.6171682423591187 0 0 0</pose>
+		  <pose>1.5570235322308432 1.741483660625194 1.7002016621189016 0 0 0</pose>
 		  <collision name="fruit_collision_70">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2476,7 +2912,7 @@
 		</link>
 		
 		<link name="fruit_71">
-		  <pose>3.40769220554213 3.2610921611097687 1.7639732401003931 0 0 0</pose>
+		  <pose>1.58716114083893 4.336158077759323 1.7662814928983626 0 0 0</pose>
 		  <collision name="fruit_collision_71">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2501,7 +2937,7 @@
 		</link>
 		
 		<link name="fruit_72">
-		  <pose>2.0469455264340928 3.050501006491749 1.8829199157796965 0 0 0</pose>
+		  <pose>3.2202336365321145 3.8642337272117384 1.7674205479485234 0 0 0</pose>
 		  <collision name="fruit_collision_72">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2526,7 +2962,7 @@
 		</link>
 		
 		<link name="fruit_73">
-		  <pose>2.0257977831129756 1.1853928980011395 1.9035230604810873 0 0 0</pose>
+		  <pose>0.5580447719299302 0.9584144577154565 1.8238170956744224 0 0 0</pose>
 		  <collision name="fruit_collision_73">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2551,7 +2987,7 @@
 		</link>
 		
 		<link name="fruit_74">
-		  <pose>0.3010759347470841 3.311122205472602 1.7047240139615063 0 0 0</pose>
+		  <pose>4.199974065208372 1.2000352882097614 1.8007246630775828 0 0 0</pose>
 		  <collision name="fruit_collision_74">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2576,7 +3012,7 @@
 		</link>
 		
 		<link name="fruit_75">
-		  <pose>2.854913406330572 4.587713062044237 1.7574534849940302 0 0 0</pose>
+		  <pose>4.184441804633531 1.2701001610998333 1.7921776734551673 0 0 0</pose>
 		  <collision name="fruit_collision_75">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2601,7 +3037,7 @@
 		</link>
 		
 		<link name="fruit_76">
-		  <pose>1.1312181402218364 2.233861060444021 1.5393315726515413 0 0 0</pose>
+		  <pose>0.5564002360328638 0.9556387885022068 1.8393683344587473 0 0 0</pose>
 		  <collision name="fruit_collision_76">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2626,7 +3062,7 @@
 		</link>
 		
 		<link name="fruit_77">
-		  <pose>2.7786622499112372 2.4267907038654086 1.8666262192040315 0 0 0</pose>
+		  <pose>2.1151098487516284 3.9368407125291998 1.8269352346483798 0 0 0</pose>
 		  <collision name="fruit_collision_77">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2651,7 +3087,7 @@
 		</link>
 		
 		<link name="fruit_78">
-		  <pose>1.051470332952665 1.5385344356974435 1.8062069153118478 0 0 0</pose>
+		  <pose>4.357943476765492 0.44372276098860197 1.5360325073576733 0 0 0</pose>
 		  <collision name="fruit_collision_78">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2676,7 +3112,7 @@
 		</link>
 		
 		<link name="fruit_79">
-		  <pose>3.78212772346992 2.73116223412292 1.8402631083328282 0 0 0</pose>
+		  <pose>0.9768967957616229 4.664480421921476 1.6383851440894754 0 0 0</pose>
 		  <collision name="fruit_collision_79">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2701,7 +3137,7 @@
 		</link>
 		
 		<link name="fruit_80">
-		  <pose>2.94959628025166 3.2846484214457763 1.6685180034416751 0 0 0</pose>
+		  <pose>2.2610696379918442 0.5059680824191274 1.7326333405996355 0 0 0</pose>
 		  <collision name="fruit_collision_80">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2726,7 +3162,7 @@
 		</link>
 		
 		<link name="fruit_81">
-		  <pose>0.40386875119974075 4.393173124178213 1.5294688652953423 0 0 0</pose>
+		  <pose>2.0793191011633247 3.608733370568507 1.8209911773995395 0 0 0</pose>
 		  <collision name="fruit_collision_81">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2751,7 +3187,7 @@
 		</link>
 		
 		<link name="fruit_82">
-		  <pose>3.240696974243826 3.013941544511078 1.6807312388519111 0 0 0</pose>
+		  <pose>4.3294817507548595 4.774241360949732 1.543066482084514 0 0 0</pose>
 		  <collision name="fruit_collision_82">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2776,7 +3212,7 @@
 		</link>
 		
 		<link name="fruit_83">
-		  <pose>2.5222952308369715 2.533002872239695 1.7758427781855985 0 0 0</pose>
+		  <pose>3.1381996964022463 3.3980241953562533 1.8759221706148879 0 0 0</pose>
 		  <collision name="fruit_collision_83">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2801,7 +3237,7 @@
 		</link>
 		
 		<link name="fruit_84">
-		  <pose>3.9866099075906556 4.567739454042008 1.5635021579070365 0 0 0</pose>
+		  <pose>0.5454694165344823 0.9754774963061997 1.8379031528938163 0 0 0</pose>
 		  <collision name="fruit_collision_84">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2826,7 +3262,7 @@
 		</link>
 		
 		<link name="fruit_85">
-		  <pose>0.407770831672176 4.381883749207704 1.5175079256391317 0 0 0</pose>
+		  <pose>4.388213703446589 3.568796520430748 1.7197894146028683 0 0 0</pose>
 		  <collision name="fruit_collision_85">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2851,7 +3287,7 @@
 		</link>
 		
 		<link name="fruit_86">
-		  <pose>0.24455118766716655 2.762421357255618 1.773509008687405 0 0 0</pose>
+		  <pose>2.086817205984547 1.3934490043099195 1.715805398377379 0 0 0</pose>
 		  <collision name="fruit_collision_86">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2876,7 +3312,7 @@
 		</link>
 		
 		<link name="fruit_87">
-		  <pose>1.4235984336256826 3.343233130934707 1.904080844775526 0 0 0</pose>
+		  <pose>1.25958562016551 3.888950151362967 1.7698667219640063 0 0 0</pose>
 		  <collision name="fruit_collision_87">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2901,7 +3337,7 @@
 		</link>
 		
 		<link name="fruit_88">
-		  <pose>3.447684378160295 3.240328529970721 1.749817218961929 0 0 0</pose>
+		  <pose>1.497577296990499 1.6911407063073516 1.7028806187459624 0 0 0</pose>
 		  <collision name="fruit_collision_88">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2926,7 +3362,7 @@
 		</link>
 		
 		<link name="fruit_89">
-		  <pose>1.0528056499107938 1.5848642343595947 1.8031313402029863 0 0 0</pose>
+		  <pose>2.0497305259575502 3.8977051787961243 1.8365658193480257 0 0 0</pose>
 		  <collision name="fruit_collision_89">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2951,7 +3387,7 @@
 		</link>
 		
 		<link name="fruit_90">
-		  <pose>0.7508654257814926 4.323100929606988 1.5904402045252957 0 0 0</pose>
+		  <pose>3.823048011807797 3.6797723735092767 1.7669638115340733 0 0 0</pose>
 		  <collision name="fruit_collision_90">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -2976,7 +3412,7 @@
 		</link>
 		
 		<link name="fruit_91">
-		  <pose>2.4187519236347232 0.31146462041531164 1.6180147170342651 0 0 0</pose>
+		  <pose>2.950977125522595 3.716547781454817 1.7730403011225517 0 0 0</pose>
 		  <collision name="fruit_collision_91">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3001,7 +3437,7 @@
 		</link>
 		
 		<link name="fruit_92">
-		  <pose>2.713904194241633 2.4061379986506592 1.8587759746803783 0 0 0</pose>
+		  <pose>0.6113894493748013 0.9609707378658103 1.831772078536322 0 0 0</pose>
 		  <collision name="fruit_collision_92">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3026,7 +3462,7 @@
 		</link>
 		
 		<link name="fruit_93">
-		  <pose>3.764199856342603 2.7162730263760486 1.8237144705710622 0 0 0</pose>
+		  <pose>0.9950195157169793 4.661622313746969 1.6509680834514242 0 0 0</pose>
 		  <collision name="fruit_collision_93">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3051,7 +3487,7 @@
 		</link>
 		
 		<link name="fruit_94">
-		  <pose>2.754321313928648 2.401403683322901 1.8650635821839274 0 0 0</pose>
+		  <pose>3.2236397702050907 3.936903831149122 1.7546718279488438 0 0 0</pose>
 		  <collision name="fruit_collision_94">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3076,7 +3512,7 @@
 		</link>
 		
 		<link name="fruit_95">
-		  <pose>0.3448149422548465 3.378072906072697 1.703075325907029 0 0 0</pose>
+		  <pose>2.1142741356695365 3.933142684513429 1.8346623571345502 0 0 0</pose>
 		  <collision name="fruit_collision_95">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3101,7 +3537,7 @@
 		</link>
 		
 		<link name="fruit_96">
-		  <pose>0.9915903336873778 0.5851308730426332 1.5202375015317413 0 0 0</pose>
+		  <pose>4.214509627208173 1.265934404671877 1.784245037969195 0 0 0</pose>
 		  <collision name="fruit_collision_96">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3126,7 +3562,7 @@
 		</link>
 		
 		<link name="fruit_97">
-		  <pose>3.2944781589018928 1.714307633449118 1.5786800023959686 0 0 0</pose>
+		  <pose>1.5618037538896352 4.310933198813252 1.7690417369733098 0 0 0</pose>
 		  <collision name="fruit_collision_97">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3151,7 +3587,7 @@
 		</link>
 		
 		<link name="fruit_98">
-		  <pose>2.498192152163213 2.565283306175386 1.788860906867247 0 0 0</pose>
+		  <pose>2.0910842747932845 3.5779590144677007 1.82444018561223 0 0 0</pose>
 		  <collision name="fruit_collision_98">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
@@ -3176,7 +3612,7 @@
 		</link>
 		
 		<link name="fruit_99">
-		  <pose>3.4259304834541875 3.2447392876780223 1.7485356477852683 0 0 0</pose>
+		  <pose>4.147186419427148 1.203265161891838 1.8015042967381667 0 0 0</pose>
 		  <collision name="fruit_collision_99">
 			<geometry><sphere><radius>0.022</radius></sphere></geometry>
 		  </collision>
