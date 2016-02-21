@@ -71,8 +71,7 @@ fruit_m = 0.05
 # diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
 diff_min = fruit_r
 diff_max = fruit_r*5
-
-fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
+fruit_locations = Array.new()
 tree_num = col_num*row_num
 tree_locations = Array.new()
 
@@ -171,7 +170,7 @@ end
   <%
 	counter = 0
 	((row_dist/4)..(row_num-1)*row_dist).step(row_dist).each do |x|
-		((col_dist/2)..(col_num)*col_dist).step(col_dist).each do |y|
+		((crossbeam_w/2)...(col_num)*col_dist).step(col_dist/vine_num).each do |y|
   %>
     <link name="vine_<%= counter %>">
       <pose><%= x %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 <%= vine_pitch %> 0</pose>
@@ -216,6 +215,7 @@ end
     
 	<% # Place fruit models in pergola %>
   <%
+	fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
 	counter = 0
 	(0...fruit_num).each do |i|	
   %>
