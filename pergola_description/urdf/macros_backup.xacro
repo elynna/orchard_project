@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<robot name="pergola" >
+        
+<macro name="cylinder_inertia" params="m r h">
+  <inertia  ixx="${m*(3*r*r+h*h)/12}" ixy = "0" ixz = "0"
+    iyy="${m*(3*r*r+h*h)/12}" iyz = "0"
+    izz="${m*r*r/2}"
+  />
+</macro>
+
+<macro name="box_inertia" params="m x y z">
+  <inertia  ixx="${m*(y*y+z*z)/12}" ixy = "0" ixz = "0"
+    iyy="${m*(x*x+z*z)/12}" iyz = "0"
+    izz="${m*(x*x+z*z)/12}"
+  />
+</macro>
+
+<macro name="sphere_inertia" params="m r">
+  <inertia  ixx="${2*m*r*r/5}" ixy = "0" ixz = "0"
+    iyy="${2*m*r*r/5}" iyz = "0"
+    izz="${2*m*r*r/5}"
+  />
+</macro>
+
+<macro name="tree" params="tree_num tree_col tree_row tree_h tree_r tree_m">
+
+<link name="$tree_{tree_num}">
+  <collision>
+    <origin xyz="${tree_col} ${tree_row} 0" rpy="0 0 0" />
+    <geometry>
+      <cylinder length="${tree_h}" radius="${tree_r}"/>
+    </geometry>
+  </collision>
+
+  <visual>
+    <origin xyz="${tree_col} ${tree_row} 0" rpy="0 0 0" />
+    <geometry>
+      <cylinder length="${tree_h}" radius="${tree_r}"/>
+    </geometry>
+  </visual>
+
+  <inertial>
+    <origin xyz="0 ${tree_h/2} 0" rpy="0 0 0" />
+    <mass value="${tree_m}"/>
+    <cylinder_inertia m="${tree_m}" r="${tree_r}" h="${tree_h}"/>
+  </inertial>
+</link>
+
+<gazebo reference="$tree_{tree_num}">
+  <material>Gazebo/WoodFloor</material>
+</gazebo>
+
+
+<joint name="$fix_tree_{tree_num}" type="fixed">
+  <parent link="world"/>
+  <child link="$tree_{tree_num}"/>
+  <origin xyz="0 0 0" rpy="0 0 0" />
+</joint>
+
+
+
+</macro>
+
+
+</robot>

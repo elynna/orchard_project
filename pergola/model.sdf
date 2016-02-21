@@ -226,7 +226,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 0.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -244,7 +244,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 0.8 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -262,7 +262,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 1.6 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -280,7 +280,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 2.4000000000000004 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -298,7 +298,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 3.2 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -316,7 +316,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 4.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -334,7 +334,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>0.75 4.800000000000001 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -352,7 +352,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 0.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -370,7 +370,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 0.8 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -388,7 +388,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 1.6 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -406,7 +406,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 2.4000000000000004 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -424,7 +424,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 3.2 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -442,7 +442,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 4.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -460,7 +460,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>2.25 4.800000000000001 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -478,7 +478,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 0.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -496,7 +496,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 0.8 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -514,7 +514,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 1.6 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -532,7 +532,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 2.4000000000000004 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -550,7 +550,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 3.2 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -568,7 +568,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 4.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -586,7 +586,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>3.75 4.800000000000001 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -604,7 +604,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 0.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -622,7 +622,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 0.8 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -640,7 +640,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 1.6 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -658,7 +658,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 2.4000000000000004 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -676,7 +676,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 3.2 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -694,7 +694,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 4.0 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -712,7 +712,7 @@
         <material><script><name>Gazebo/Wood</name></script></material>
       </visual>
     <inertial>
-      <pose>5.25 4.800000000000001 1.81 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>5</mass>
       <inertia>
         <ixx>0.004333333333333334</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>0.9416666666666665</iyy><iyz>0.0</iyz><izz>0.9376666666666665</izz>
@@ -904,605 +904,1305 @@
 		
     
 	  
-		<include>
-			<name>fruit_0</name>
-			<pose>3.3187858827379113 4.331344231017108 1.8848525040957622 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_1</name>
-			<pose>1.8833014981090508 0.8604896141428494 1.7882043773986325 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_2</name>
-			<pose>0.6633804536667693 3.4311291992675113 1.8051397665662163 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_3</name>
-			<pose>2.926694134418519 4.520213548446217 1.759472654632426 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_4</name>
-			<pose>3.6017051737982673 0.951283104224552 1.5995952016786499 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_5</name>
-			<pose>2.5642465591979935 0.26381442471196626 1.7808319000479749 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_6</name>
-			<pose>1.8807758419932286 0.1665123738924631 1.759037276878482 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_7</name>
-			<pose>3.9380447336943725 1.3891468823388278 1.5836544984800587 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_8</name>
-			<pose>3.238466106294227 2.110857596383511 1.7505049572271818 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_9</name>
-			<pose>3.5982438512391837 4.456649748751959 1.7568543308240052 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_10</name>
-			<pose>1.1232891752858662 3.3329171826591057 1.9034940152787299 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_11</name>
-			<pose>1.9134194909640236 1.2160723610310553 1.7640104409974677 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_12</name>
-			<pose>2.138264647038467 4.005077132543345 1.694032949368766 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_13</name>
-			<pose>0.6137308534469997 2.4544917772732906 1.8874625537829735 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_14</name>
-			<pose>2.7140559155279482 4.361183982484734 1.9079249390241277 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_15</name>
-			<pose>5.49421166714263 2.8623205792534008 1.5955730569097426 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_16</name>
-			<pose>3.2777621788595765 2.852291707164755 1.885432748179052 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_17</name>
-			<pose>5.634018594050085 0.2250230063696596 1.6834435191844417 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_18</name>
-			<pose>5.597478509962788 3.2693965782809746 1.7360897252773835 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_19</name>
-			<pose>1.8122142784015625 3.5896717084016245 1.914329126384797 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_20</name>
-			<pose>1.3416530524287071 0.7383558038843356 1.6263230466499488 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_21</name>
-			<pose>0.48987380943062625 3.9534769826430995 1.8340252914850514 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_22</name>
-			<pose>4.747008844783779 4.498714906967898 1.6921981804849484 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_23</name>
-			<pose>0.30563098797836613 2.029421614121349 1.869143498904322 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_24</name>
-			<pose>3.3329507217394894 3.55465441922572 1.6109014117708764 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_25</name>
-			<pose>5.039558500635615 1.681707733745069 1.8392419538129092 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_26</name>
-			<pose>3.905862864543411 0.8838157388968456 1.8005950316767965 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_27</name>
-			<pose>4.541262021164957 0.7817529341290207 1.7318138338469993 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_28</name>
-			<pose>2.125847064376347 3.180358208538301 1.9154489959704168 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_29</name>
-			<pose>2.573353174358253 1.8892397375241907 1.748313143652149 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_30</name>
-			<pose>4.847675668332344 4.313717973702508 1.8058921209325367 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_31</name>
-			<pose>5.308108656490654 0.9275540421731516 1.6125592534382975 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_32</name>
-			<pose>4.583184802087137 1.6136196802595582 1.6554367588704877 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_33</name>
-			<pose>5.239034943952773 1.512071846453516 1.616735149830677 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_34</name>
-			<pose>4.049680327072261 2.3292188112537113 1.8717871971741349 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_35</name>
-			<pose>0.8903452096024568 1.725307527352805 1.6277983979735444 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_36</name>
-			<pose>0.29383734618483803 3.653037105053143 1.91292937268711 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_37</name>
-			<pose>2.270160409021172 3.8072475314156207 1.6568836821744075 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_38</name>
-			<pose>1.878911513167011 3.232778150687767 1.705744478245989 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_39</name>
-			<pose>2.6188194418900035 0.40805170982348155 1.5929730920647938 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_40</name>
-			<pose>0.16423435619841392 4.684459561831039 1.7952578860326949 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_41</name>
-			<pose>2.5695802651570543 3.1990434584668317 1.595894568871117 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_42</name>
-			<pose>2.28674252975304 0.42589428824631287 1.9014754569225267 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_43</name>
-			<pose>1.723914293397144 0.3602903451597737 1.6654739715957856 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_44</name>
-			<pose>3.9248596168594827 1.0192009614035022 1.541197879425124 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_45</name>
-			<pose>2.593259787680168 2.198148013663573 1.686771583288738 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_46</name>
-			<pose>0.37994596420823584 0.447874786856191 1.681381876103941 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_47</name>
-			<pose>4.663642826988106 1.4078183851350314 1.5710609076565611 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_48</name>
-			<pose>2.165684304827304 3.4613271712427642 1.8710320531760842 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_49</name>
-			<pose>2.089765310594631 2.587332124776291 1.7570319136295764 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_50</name>
-			<pose>0.1656383102139973 2.3186976603872904 1.8516473954652557 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_51</name>
-			<pose>2.613328710436065 4.411560580197911 1.7991306175556008 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_52</name>
-			<pose>5.53033981334186 1.3233653518694217 1.5633779109958825 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_53</name>
-			<pose>1.2728510103474395 4.434606124832179 1.7251037524966193 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_54</name>
-			<pose>0.06347228864827675 0.5835278263954699 1.5832718181638787 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_55</name>
-			<pose>0.6069240327782665 0.8269510954816361 1.8338893321396645 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_56</name>
-			<pose>2.188067760656552 3.219217924820197 1.8934376909466064 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_57</name>
-			<pose>1.6810545331917557 3.2122325476282 1.5333770521879253 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_58</name>
-			<pose>3.461452582653725 4.07871431375935 1.634626118094098 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_59</name>
-			<pose>3.59438732557929 0.12568303234338649 1.6345360428071627 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_60</name>
-			<pose>5.035275064346809 0.6053541372404461 1.7563575264026046 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_61</name>
-			<pose>4.27733446853204 0.3645544086279849 1.8686719094965738 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_62</name>
-			<pose>0.8284653082715018 1.3464504745335881 1.6387885938439684 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_63</name>
-			<pose>2.426004564251065 1.1692773403865306 1.7315011997552878 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_64</name>
-			<pose>5.742661671521692 1.2813943041969669 1.5537387226924406 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_65</name>
-			<pose>2.662309644465778 1.328669411368298 1.5686013357034658 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_66</name>
-			<pose>5.3068936577583115 2.590957591318828 1.7668427544043679 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_67</name>
-			<pose>2.054198962502807 2.493823590786229 1.8679618111498966 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_68</name>
-			<pose>2.836833988272885 3.689790346306822 1.7660806206811426 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_69</name>
-			<pose>5.209645499691087 3.906892843319248 1.9043704046539254 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_70</name>
-			<pose>3.2615037894805567 2.85421739664144 1.7873315022200809 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_71</name>
-			<pose>5.280218497490206 4.644236916869807 1.8951796815496411 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_72</name>
-			<pose>1.8527528591836133 3.0870956373547522 1.9199334236209507 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_73</name>
-			<pose>3.040815729916027 2.6061861470373726 1.574438579860683 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_74</name>
-			<pose>5.754686364911541 0.9641251277080004 1.718376924403543 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_75</name>
-			<pose>3.068218656266063 2.0338581332493955 1.8749758308618756 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_76</name>
-			<pose>3.3205328022979885 1.50112311040707 1.8662503580661192 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_77</name>
-			<pose>5.636412965976757 0.5694721356040892 1.8469117041564 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_78</name>
-			<pose>0.22315077723859694 2.0489638082362633 1.5763521142159305 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_79</name>
-			<pose>0.2921023937346285 3.790389384906698 1.71410815481999 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_80</name>
-			<pose>3.2981324360546584 1.562787644241722 1.6616612492172174 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_81</name>
-			<pose>3.284854314134469 3.3514274219097646 1.6230419059058543 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_82</name>
-			<pose>2.3765094977760577 2.4332488524955385 1.8615001200068892 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_83</name>
-			<pose>3.5756204173294637 0.9784325708089349 1.8798564650393244 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_84</name>
-			<pose>2.5517370425415415 1.7836677351497165 1.5392674385979508 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_85</name>
-			<pose>0.4603775548485869 3.20453937242778 1.5704764897731505 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_86</name>
-			<pose>0.3406989002643764 2.9746438861024274 1.6202095136285997 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_87</name>
-			<pose>1.5737179409120319 1.9952908786215642 1.6796505500839125 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_88</name>
-			<pose>5.419186839228459 1.7243058319573639 1.7192476205106684 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_89</name>
-			<pose>3.483285679346548 4.573996657124289 1.6425279153032415 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_90</name>
-			<pose>4.617710446551519 0.0876240051941901 1.533427106544304 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_91</name>
-			<pose>0.19346517691097764 2.1323221300911728 1.7882729031906808 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_92</name>
-			<pose>1.2944362802088998 3.7182942537148205 1.6077294526033519 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_93</name>
-			<pose>4.924102097043446 2.4232940207888105 1.7767462827357654 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_94</name>
-			<pose>0.05284906591491533 0.41496203858313746 1.6307090564845197 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_95</name>
-			<pose>2.6428247002591108 1.9131375823257082 1.608452876736463 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_96</name>
-			<pose>2.527460900195113 2.253906437620815 1.909798711933702 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_97</name>
-			<pose>0.5686186495956733 0.4591370387366574 1.787092584498572 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_98</name>
-			<pose>3.8650581084451607 1.2136870137615552 1.5518385823068246 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
-		
-		<include>
-			<name>fruit_99</name>
-			<pose>1.0148596646180021 2.6276173893868435 1.8085283960341862 0 0 0</pose>
-			<uri>model://fruit</uri>
-		</include>	
+		<link name="fruit_0">
+		  <pose>3.5135315298164875 3.907262830104746 1.605692403833064 0 0 0</pose>
+		  <collision name="fruit_collision_0">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_0' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_0</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_1">
+		  <pose>1.937853082181581 4.006751116856202 1.9264009132150126 0 0 0</pose>
+		  <collision name="fruit_collision_1">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_1' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_1</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_2">
+		  <pose>1.801512995966086 2.730208692290423 1.7680549765027018 0 0 0</pose>
+		  <collision name="fruit_collision_2">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_2' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_2</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_3">
+		  <pose>1.4920568674555792 0.19245060216203513 1.8963741962120508 0 0 0</pose>
+		  <collision name="fruit_collision_3">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_3' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_3</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_4">
+		  <pose>3.4328860357138775 0.12708911411825824 1.5348597514773576 0 0 0</pose>
+		  <collision name="fruit_collision_4">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_4' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_4</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_5">
+		  <pose>2.1770776665458196 2.1370632163717556 1.8734731076290747 0 0 0</pose>
+		  <collision name="fruit_collision_5">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_5' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_5</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_6">
+		  <pose>4.919768616097699 3.1950884700736024 1.8023512561135113 0 0 0</pose>
+		  <collision name="fruit_collision_6">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_6' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_6</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_7">
+		  <pose>5.114327328887049 1.9690140107545495 1.8332826778203983 0 0 0</pose>
+		  <collision name="fruit_collision_7">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_7' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_7</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_8">
+		  <pose>3.2898409242457727 3.191237946924233 1.9093310293650687 0 0 0</pose>
+		  <collision name="fruit_collision_8">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_8' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_8</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_9">
+		  <pose>4.2711143705886 2.9212052913476114 1.6362793608920039 0 0 0</pose>
+		  <collision name="fruit_collision_9">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_9' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_9</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_10">
+		  <pose>1.4380596545916655 1.8011704443969552 1.6338786690188805 0 0 0</pose>
+		  <collision name="fruit_collision_10">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_10' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_10</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_11">
+		  <pose>1.0314870300516605 4.497848914987983 1.6294168768098058 0 0 0</pose>
+		  <collision name="fruit_collision_11">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_11' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_11</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_12">
+		  <pose>2.433792093988729 3.6380050020048156 1.6517472913841416 0 0 0</pose>
+		  <collision name="fruit_collision_12">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_12' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_12</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_13">
+		  <pose>2.3638689008113105 2.077038977262759 1.6269259753376213 0 0 0</pose>
+		  <collision name="fruit_collision_13">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_13' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_13</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_14">
+		  <pose>4.337153710791026 3.8454660437630683 1.7052051671549153 0 0 0</pose>
+		  <collision name="fruit_collision_14">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_14' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_14</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_15">
+		  <pose>5.606881592766206 3.956139006275665 1.6718266748883077 0 0 0</pose>
+		  <collision name="fruit_collision_15">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_15' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_15</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_16">
+		  <pose>0.7173088845949763 2.6262493473270534 1.8705607995692943 0 0 0</pose>
+		  <collision name="fruit_collision_16">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_16' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_16</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_17">
+		  <pose>3.758640290660004 1.094287526544518 1.7674049798046163 0 0 0</pose>
+		  <collision name="fruit_collision_17">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_17' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_17</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_18">
+		  <pose>3.4687548216346107 0.1722142555316314 1.5242301391715032 0 0 0</pose>
+		  <collision name="fruit_collision_18">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_18' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_18</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_19">
+		  <pose>2.0028293859601995 4.1347904829124085 1.9262549967200047 0 0 0</pose>
+		  <collision name="fruit_collision_19">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_19' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_19</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_20">
+		  <pose>0.7735401615996962 2.663200980378316 1.8560833300483057 0 0 0</pose>
+		  <collision name="fruit_collision_20">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_20' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_20</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_21">
+		  <pose>3.8024106331668643 1.1798405136576595 1.7657569235098092 0 0 0</pose>
+		  <collision name="fruit_collision_21">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_21' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_21</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_22">
+		  <pose>3.6303098119578516 4.033733008942704 1.5837187721863293 0 0 0</pose>
+		  <collision name="fruit_collision_22">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_22' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_22</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_23">
+		  <pose>5.668388878480453 3.9999125727943072 1.6567335696748005 0 0 0</pose>
+		  <collision name="fruit_collision_23">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_23' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_23</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_24">
+		  <pose>0.8473796967036666 2.6724211391885606 1.8690976143877298 0 0 0</pose>
+		  <collision name="fruit_collision_24">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_24' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_24</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_25">
+		  <pose>3.5539886458872885 3.9713787212004714 1.6054544600733154 0 0 0</pose>
+		  <collision name="fruit_collision_25">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_25' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_25</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_26">
+		  <pose>4.993796097050745 3.2228884672531226 1.7950270051146684 0 0 0</pose>
+		  <collision name="fruit_collision_26">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_26' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_26</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_27">
+		  <pose>3.562412083080087 3.992647486465743 1.5933009992057223 0 0 0</pose>
+		  <collision name="fruit_collision_27">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_27' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_27</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_28">
+		  <pose>1.5008497371986131 1.908626338842578 1.6238313788993526 0 0 0</pose>
+		  <collision name="fruit_collision_28">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_28' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_28</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_29">
+		  <pose>2.447317846312378 2.1520202500916494 1.6141112178530985 0 0 0</pose>
+		  <collision name="fruit_collision_29">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_29' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_29</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_30">
+		  <pose>1.526333057416271 1.8589203182416478 1.6145653048565372 0 0 0</pose>
+		  <collision name="fruit_collision_30">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_30' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_30</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_31">
+		  <pose>2.46676658826724 2.1697797827933094 1.6219389343016908 0 0 0</pose>
+		  <collision name="fruit_collision_31">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_31' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_31</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_32">
+		  <pose>3.8182971750967627 1.2238027072667939 1.7669970263994323 0 0 0</pose>
+		  <collision name="fruit_collision_32">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_32' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_32</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_33">
+		  <pose>4.463197196329952 3.934941501179603 1.7041675067278057 0 0 0</pose>
+		  <collision name="fruit_collision_33">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_33' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_33</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_34">
+		  <pose>1.5669062614876557 0.2705530443879465 1.886537313200146 0 0 0</pose>
+		  <collision name="fruit_collision_34">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_34' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_34</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_35">
+		  <pose>2.2232156644488983 2.1688577857649185 1.8560346922472413 0 0 0</pose>
+		  <collision name="fruit_collision_35">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_35' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_35</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_36">
+		  <pose>1.9659436509663477 4.067435201247655 1.9084268733729814 0 0 0</pose>
+		  <collision name="fruit_collision_36">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_36' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_36</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_37">
+		  <pose>5.2389150550243 2.0110857201863843 1.8205854752281203 0 0 0</pose>
+		  <collision name="fruit_collision_37">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_37' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_37</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_38">
+		  <pose>2.408041102477379 2.161241042033617 1.6095236986642927 0 0 0</pose>
+		  <collision name="fruit_collision_38">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_38' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_38</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_39">
+		  <pose>2.473224085731068 2.113488660757872 1.6116738393420176 0 0 0</pose>
+		  <collision name="fruit_collision_39">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_39' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_39</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_40">
+		  <pose>3.6079704034782334 3.988533343149561 1.5989030714025467 0 0 0</pose>
+		  <collision name="fruit_collision_40">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_40' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_40</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_41">
+		  <pose>5.713074264649207 4.069871568141222 1.6563400864171707 0 0 0</pose>
+		  <collision name="fruit_collision_41">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_41' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_41</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_42">
+		  <pose>4.306694470808142 2.9471494668203464 1.6317427119444945 0 0 0</pose>
+		  <collision name="fruit_collision_42">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_42' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_42</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_43">
+		  <pose>2.4461939293946973 2.170079580162638 1.6267844494407613 0 0 0</pose>
+		  <collision name="fruit_collision_43">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_43' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_43</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_44">
+		  <pose>1.9288433929867652 2.8035829615983845 1.7527895040843564 0 0 0</pose>
+		  <collision name="fruit_collision_44">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_44' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_44</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_45">
+		  <pose>0.7476125150002246 2.712466746704629 1.8656034194975113 0 0 0</pose>
+		  <collision name="fruit_collision_45">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_45' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_45</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_46">
+		  <pose>5.03181778935333 3.2408381329884643 1.7921529915062573 0 0 0</pose>
+		  <collision name="fruit_collision_46">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_46' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_46</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_47">
+		  <pose>1.5600068996180896 0.3236076108863235 1.87581616197183 0 0 0</pose>
+		  <collision name="fruit_collision_47">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_47' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_47</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_48">
+		  <pose>3.6008996978553167 3.9678168737456776 1.5909357350381883 0 0 0</pose>
+		  <collision name="fruit_collision_48">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_48' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_48</collision>
+      </contact>
+    </sensor>
+		</link>
+		
+		
+		<link name="fruit_49">
+		  <pose>3.5195246420568953 0.2538350176312218 1.5281168795340072 0 0 0</pose>
+		  <collision name="fruit_collision_49">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+		  </collision>
+		  <visual name="visual">
+			<geometry><sphere><radius>0.022</radius></sphere></geometry>
+			<material><script><name>Gazebo/Red</name></script></material>
+		  </visual>
+		<inertial>
+		  <pose>0 0 0 0 0 0</pose>
+		  <mass>0.05</mass>
+		  <inertia>
+			<ixx>9.679999999999999e-06</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>9.679999999999999e-06</iyy><iyz>0.0</iyz><izz>9.679999999999999e-06</izz>
+		  </inertia>
+		</inertial>
+<!-- Sensor for any contact with fruit - NEED TO COMPLETE PLUGIN -->
+    <sensor name='fruit_contact_49' type='contact'>
+<!--      <plugin name="contact_plugin" filename="libcontact.so"/> -->
+      <contact>
+        <collision>fruit_collision_49</collision>
+      </contact>
+    </sensor>
+		</link>
+		
 		
     
   </model>

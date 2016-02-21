@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="pergola" >
+        
+<gazebo reference="chassis">
+  <material>Gazebo/Orange</material>
+</gazebo>
+
+<gazebo reference="caster_wheel">
+  <material>Gazebo/Red</material>
+</gazebo>
+
+
+
+
+</robot>

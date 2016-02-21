@@ -3,7 +3,7 @@
   <model name="fruit">
   <static>true</static> <!-- Fruit static for testing stages -->
     <link name="fruit">
-      <pose>0 0 -0.022 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
 
       <collision name="fruit_collision">
         <geometry>
@@ -27,7 +27,7 @@
       </visual>
 
     <inertial>
-      <pose>0 0 -0.022 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <mass>0.01</mass>
       <inertia>
         <ixx>1.0</ixx>
@@ -48,7 +48,6 @@
         <collision>fruit_collision</collision>
       </contact>
     </sensor>
-
 
     </link>
     

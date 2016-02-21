@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<robot name="pergola" xmlns:xacro="http://www.ros.org/wiki/xacro">
+        
+	<xacro:property name="PI" value="3.1415926535897931"/>
+
+	<xacro:property name="chassisHeight" value="0.1"/>
+	<xacro:property name="chassisLength" value="0.4"/>
+	<xacro:property name="chassisWidth" value="0.2"/>
+	<xacro:property name="chassisMass" value="50"/>
+
+	<xacro:property name="casterRadius" value="0.05"/>
+	<xacro:property name="casterMass" value="5"/>
+
+	<xacro:property name="wheelWidth" value="0.05"/>
+	<xacro:property name="wheelRadius" value="0.1"/>
+	<xacro:property name="wheelPos" value="0.1"/>
+	<xacro:property name="wheelMass" value="5"/>
+
+	<xacro:property name="tree_h_" value="1.8"/>
+	<xacro:property name="tree_r_" value="0.04"/>
+	<xacro:property name="tree_m_" value="20"/>
+
+	<xacro:include filename="$(find pergola_description)/urdf/macros.xacro" />
+
+<link name="world" />
+
+<tree tree_num="1" tree_col="1" tree_row="1" tree_h="${tree_h_}" tree_r="${tree_r_}" tree_m="${tree_m_}"/>
+<tree tree_num="0" tree_col="0" tree_row="0" tree_h="${tree_h_}" tree_r="${tree_r_}" tree_m="${tree_m_}"/>
+<tree tree_num="2" tree_col="2" tree_row="2" tree_h="${tree_h_}" tree_r="${tree_r_}" tree_m="${tree_m_}"/>
+
+
+</robot>
