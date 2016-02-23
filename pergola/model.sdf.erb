@@ -28,9 +28,9 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max, clus
 	return fruit_locations_
 end
 
-row_num = 3
-col_num = 2 # number of trees (posts have one more)
-row_dist = 1.8 # float
+row_num = 5
+col_num = 6 # number of trees (posts have one more)
+row_dist = 1.25 # float
 col_dist = 0.8 # float
 post_tree_dist = 0.4
 vine_num = 4 # number of vines per baseBranch
@@ -62,7 +62,7 @@ vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
 vine_m = 5
 vine_z = tree_h
 vine_pitch = Math::atan2((row_dist/2),vine_h)
-fruit_num = 100
+fruit_num = 825
 fruit_mean_z = 1.7
 fruit_r = 0.022
 fruit_m = 0.05
@@ -233,15 +233,14 @@ end
 			<ixx><%= 2*fruit_m*fruit_r*fruit_r/5 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= 2*fruit_m*fruit_r*fruit_r/5 %></iyy><iyz>0.0</iyz><izz><%= 2*fruit_m*fruit_r*fruit_r/5 %></izz>
 		  </inertia>
 		</inertial>
-		
-	<!-- Sensor for any contact with fruit -->
+		<!-- Sensor for any contact with fruit -->
 		<sensor name='fruit_contact_<%= counter %>' type='contact'>
 	      <plugin name="contact_plugin_<%= counter %>" filename="libcontact_plugin.so"/>
 		  <contact>
 			<collision>fruit_collision_<%= counter %></collision>
 			<topic>fruit_contact_topic_<%= counter %></topic>
 		  </contact>
-		</sensor>
+		</sensor>		
 		</link>
 		<% counter += 1
     end %>
