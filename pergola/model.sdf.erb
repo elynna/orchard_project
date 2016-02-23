@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <%
 
-def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
+def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max, cluster_diff)
 	anchors = rand((number/5).round..((number/2).round)) # min number of anchors is the equivalent of having clusters of 5
 	if anchors == 0
 		anchors = 1
@@ -9,10 +9,9 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 	fruit_locations_ = Array.new(number) { Array.new(3) }
 	
 	# Determine the anchor fruit locations
-	(0...anchors).each do |i|
-		fruit_locations_[i] = [rand(x_min...x_max), rand(y_min...y_max), z_mean+rand(-0.2..0.2)]
+	(0..(anchors-1)).each do |i|
+		fruit_locations_[i] = [rand(x_min...x_max), rand(y_min...y_max), z_mean+rand(-0.15..0.15)]
 	end
-	
 	
 	assign_to = 0
 	anchor_location = Array.new(3)
@@ -27,11 +26,10 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 		fruit_locations_[i] = [anchor_location[0]+rand(diff_min..diff_max), anchor_location[1]+rand(diff_min..diff_max), anchor_location[2]-rand(0..diff_min) ]
 	end
 	return fruit_locations_
-
 end
 
-row_num = 6
-col_num = 6 # number of trees (posts have one more)
+row_num = 3
+col_num = 2 # number of trees (posts have one more)
 row_dist = 1.8 # float
 col_dist = 0.8 # float
 post_tree_dist = 0.4
@@ -64,13 +62,14 @@ vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
 vine_m = 5
 vine_z = tree_h
 vine_pitch = Math::atan2((row_dist/2),vine_h)
-fruit_num = 2
+fruit_num = 100
 fruit_mean_z = 1.7
 fruit_r = 0.022
 fruit_m = 0.05
 # diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
 diff_min = fruit_r
 diff_max = fruit_r*5
+cluster_diff = 0.05 # minimum distance between adjacent clusters
 fruit_locations = Array.new()
 tree_num = col_num*row_num
 tree_locations = Array.new()
@@ -214,10 +213,7 @@ end
     
 	<% # Place fruit models in pergola %>
   <%
-	fruit_locations.push([-0.03, -1, 0.3])
-	fruit_locations.push([0.03, -1, 0.3])
-	
-	#fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
+	fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max, cluster_diff)
 	counter = 0
 	(0...fruit_num).each do |i|	
   %>
@@ -243,12 +239,12 @@ end
 	      <plugin name="contact_plugin_<%= counter %>" filename="libcontact_plugin.so"/>
 		  <contact>
 			<collision>fruit_collision_<%= counter %></collision>
+			<topic>fruit_contact_topic_<%= counter %></topic>
 		  </contact>
 		</sensor>
 		</link>
 		<% counter += 1
     end %>
-
     
   </model>
 </sdf>
