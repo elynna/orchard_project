@@ -30,12 +30,12 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 
 end
 
-row_num = 6
-col_num = 6 # number of trees (posts have one more)
-row_dist = 1.8 # float
-col_dist = 0.8 # float
+row_num = 10
+col_num = 10 # number of trees (posts have one more)
+row_dist = 1.5 # float
+col_dist = 1.0 # float
 post_tree_dist = 0.4
-vine_num = 4 # number of vines per baseBranch
+vine_num = 0 # number of vines per baseBranch
 if row_num < 1
 	row_num = 1.0
 end
@@ -58,13 +58,12 @@ tree_h = 1.8
 baseBranch_r = 0.04 # also used as baseBranch radius
 baseBranch_m = 10
 baseBranch_l = col_dist-crossbeam_w
-vine_h = 0.05
 vine_r = 0.01
-vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
 vine_m = 5
-vine_z = tree_h
-vine_pitch = Math::atan2((row_dist/2),vine_h)
-fruit_num = 2
+vine_l = row_dist
+vine_z = tree_h + baseBranch_r + vine_r
+vine_pitch = Math::PI/2
+fruit_num = 500
 fruit_mean_z = 1.7
 fruit_r = 0.022
 fruit_m = 0.05
@@ -168,12 +167,13 @@ end
     
 	<% # Create vines/branches that stretch across the columns of tree trunks %>
   <%
+  if vine_num != 0
 	counter = 0
-	((row_dist/4)..(row_num-1)*row_dist).step(row_dist).each do |x|
+	((row_dist/2)..(row_num-1)*row_dist).step(row_dist).each do |x|
 		((crossbeam_w/2)...(col_num)*col_dist).step(col_dist/vine_num).each do |y|
   %>
     <link name="vine_<%= counter %>">
-      <pose><%= x %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 <%= vine_pitch %> 0</pose>
+      <pose><%= x %> <%= y %> <%= vine_z %> 0 <%= vine_pitch %> 0</pose>
       <collision name="collision">
         <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
       </collision>
@@ -190,64 +190,12 @@ end
     </inertial>
     </link>
     
-    <% counter += 1 %>
-    <link name="vine_<%= counter %>">
-      <pose><%= x + row_dist/2 %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 <%= -(vine_pitch) %> 0</pose>
-      <collision name="collision">
-        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
-      </collision>
-      <visual name="visual">
-        <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
-        <material><script><name>Gazebo/WoodFloor</name></script></material>
-      </visual>
-    <inertial>
-      <pose>0 0 0 0 0 0</pose>
-      <mass><%= vine_m %></mass>
-      <inertia>
-        <ixx><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= vine_m*(3*vine_r*vine_r+vine_l*vine_l)/12 %></iyy><iyz>0.0</iyz><izz><%= vine_m*vine_r*vine_r/2 %></izz>
-      </inertia>
-    </inertial>
     </link>
 		<% counter += 1
 		end
+	  end
     end %>
     
-	<% # Place fruit models in pergola %>
-  <%
-	fruit_locations.push([-0.03, -1, 0.3])
-	fruit_locations.push([0.03, -1, 0.3])
-	
-	#fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
-	counter = 0
-	(0...fruit_num).each do |i|	
-  %>
-		<link name="fruit_<%= counter %>">
-		  <pose><%= fruit_locations[i][0] %> <%= fruit_locations[i][1] %> <%= fruit_locations[i][2] - fruit_r %> 0 0 0</pose>
-		  <collision name="fruit_collision_<%= counter %>">
-			<geometry><sphere><radius><%= fruit_r %></radius></sphere></geometry>
-		  </collision>
-		  <visual name="visual">
-			<geometry><sphere><radius><%= fruit_r %></radius></sphere></geometry>
-			<material><script><name>Gazebo/Red</name></script></material>
-		  </visual>
-		<inertial>
-		  <pose>0 0 0 0 0 0</pose>
-		  <mass><%= fruit_m %></mass>
-		  <inertia>
-			<ixx><%= 2*fruit_m*fruit_r*fruit_r/5 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= 2*fruit_m*fruit_r*fruit_r/5 %></iyy><iyz>0.0</iyz><izz><%= 2*fruit_m*fruit_r*fruit_r/5 %></izz>
-		  </inertia>
-		</inertial>
-		
-	<!-- Sensor for any contact with fruit -->
-		<sensor name='fruit_contact_<%= counter %>' type='contact'>
-	      <plugin name="contact_plugin_<%= counter %>" filename="libcontact_plugin.so"/>
-		  <contact>
-			<collision>fruit_collision_<%= counter %></collision>
-		  </contact>
-		</sensor>
-		</link>
-		<% counter += 1
-    end %>
 
     
   </model>
