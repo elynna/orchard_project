@@ -1,0 +1,24 @@
+<!-- This world contains the pergola model and a population of fruit as defined by the fruit_population model. 
+As of 24/02/2016, this file has the same implications as the world as defined in mybot.world -->
+<?xml version="1.0"?>
+<sdf version="1.4">
+<world name="fruit_population">
+	<include>
+		<uri>model://sun</uri>
+		<pose>0 50 10 0 0 0</pose>
+	</include>
+	
+	<include>
+		<uri>model://orchard_ground_plane</uri>
+	</include>
+
+	<include>
+		<uri>model://pergola_unpopulated</uri>
+	</include>
+
+	<include>
+		<uri>model://fruit_population</uri>
+	</include>
+
+</world>
+</sdf>

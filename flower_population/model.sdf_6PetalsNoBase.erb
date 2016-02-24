@@ -1,0 +1,215 @@
+<?xml version='1.0'?>
+<%
+
+def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
+	anchors = rand((number/5).round..((number/2).round)) # min number of anchors is the equivalent of having clusters of 5
+	if anchors == 0
+		anchors = 1
+	end
+	flower_locations_ = Array.new(number) { Array.new(3) }
+	
+	# Determine the anchor flower locations
+	(0...anchors).each do |i|
+		flower_locations_[i] = [rand(x_min...x_max), rand(y_min...y_max), z_mean+rand(-0.2..0.2)]
+	end
+	
+	assign_to = 0
+	anchor_location = Array.new(3)
+	# Determine the non-anchor flower locations
+	(anchors..(number-1)).each do |i|
+		if anchors > 1
+			assign_to = rand(0..(anchors-1))
+		else
+			assign_to = 0
+		end
+		anchor_location = flower_locations_[assign_to]
+		flower_locations_[i] = [anchor_location[0]+rand(diff_min..diff_max), anchor_location[1]+rand(diff_min..diff_max), anchor_location[2]-rand(0..diff_min) ]
+	end
+	return flower_locations_
+
+end
+
+row_num = 3
+col_num = 4 # number of trees (posts have one more)
+row_dist = 2.5 # float
+col_dist = 1.25 # float
+flower_num = 200
+
+if row_num < 1
+	row_num = 1.0
+end
+if col_num < 1
+	col_num = 1.0
+end
+if row_dist < 1
+	row_dist = 1.0
+end	
+if col_dist < 0.5
+	col_dist = 0.5
+end
+post_w = 0.1
+flower_mean_z = 1.7
+flower_r = 0.03
+flower_m = 0.05
+# diff_min and diff_max specify the limits of how far anchor flower are from non-anchor flower in a single cluster
+diff_min = flower_r
+diff_max = flower_r*5
+flower_locations = Array.new()
+
+# Flower link parameters
+centre_r = 0.013 
+centre_m = 0.0001
+petal_m = 0.00001
+petal_r = 0.02
+petal_l = 0.003
+%>
+
+<sdf version='1.4'>
+  <model name="flower_population">
+	<static>true</static>
+    
+	<% # Place flower models in pergola %>
+  <%
+	flower_locations = getPose(flower_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), flower_mean_z, diff_min, diff_max)
+	counter = 0
+	(0...flower_num).each do |i|	
+  %>
+        <link name="centre_<%= counter %>">
+		  <pose><%= flower_locations[i][0] %> <%= flower_locations[i][1] %> <%= flower_locations[i][2] - (flower_r/2) %> 0 0 0</pose>
+          <collision name="centre_collision_<%= counter %>">
+            <geometry><sphere><radius><%= centre_r %></radius></sphere></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><sphere><radius><%= centre_r %></radius></sphere></geometry>
+            <material><script><name>Gazebo/Yellow</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= centre_m %></mass>
+          <inertia>
+            <ixx><%= 2*centre_m*centre_r*centre_r/5 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= 2*centre_m*centre_r*centre_r/5 %></iyy><iyz>0.0</iyz><izz><%= 2*centre_m*centre_r*centre_r/5 %></izz>
+          </inertia>
+        </inertial>
+        <!-- Sensor for any contact with centre (stigma) of flower -->
+		<sensor name='stigma_contact_<%= counter %>' type='contact'>
+	      <plugin name="contact_plugin" filename="libcontact_plugin.so"/>
+		  <contact>
+			<collision>centre_collision_<%= counter %></collision>
+			<topic>stigma_contact_topic_<%= counter %></topic>
+		  </contact>
+		</sensor>	
+        </link>
+
+        <link name="petal_a_<%= counter %>">
+          <pose><%= flower_locations[i][0] +0.016 %> <%= flower_locations[i][1] %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= (Math::PI/5) %> 0</pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>        
+        
+        <link name="petal_b_<%= counter %>">
+          <pose><%= flower_locations[i][0] + 0.01 %> <%= flower_locations[i][1] + 0.012 %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= (Math::PI/5) %> <%= Math::PI/3 %></pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>   
+        
+        <link name="petal_c_<%= counter %>">
+          <pose><%= flower_locations[i][0] - 0.01 %> <%= flower_locations[i][1] + 0.012 %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= -(Math::PI/5) %> <%= -(Math::PI/3) %></pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>     
+        
+        <link name="petal_d_<%= counter %>">
+          <pose><%= flower_locations[i][0] - 0.016 %> <%= flower_locations[i][1] %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= -(Math::PI/5) %> 0</pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>       
+        
+        <link name="petal_e_<%= counter %>">
+          <pose><%= flower_locations[i][0] - 0.01 %> <%= flower_locations[i][1] - 0.012 %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= -(Math::PI/5) %> <%= Math::PI/3 %></pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>           
+        
+        <link name="petal_f_<%= counter %>">
+          <pose><%= flower_locations[i][0] + 0.01 %> <%= flower_locations[i][1] - 0.012 %> <%= flower_locations[i][2] - (flower_r/2) + 0.002 %> 0 <%= (Math::PI/5) %> <%= -(Math::PI/3) %></pose>
+          <collision name="collision">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius><%= petal_r %></radius><length><%= petal_l %></length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass><%= petal_m %></mass>
+          <inertia>
+        <ixx><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= petal_m*(3*petal_r*petal_r+petal_l*petal_l)/12 %></iyy><iyz>0.0</iyz><izz><%= petal_m*petal_r*petal_r/2 %></izz>
+          </inertia>
+        </inertial>
+        </link>     
+		
+		<% counter += 1
+    end %>
+    
+  </model>
+</sdf>

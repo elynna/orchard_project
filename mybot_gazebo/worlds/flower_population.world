@@ -1,0 +1,23 @@
+<!-- This world contains the pergola model and a population of flowers as defined by the flower_population model. -->
+<?xml version="1.0"?>
+<sdf version="1.4">
+<world name="flower_population">
+	<include>
+		<uri>model://sun</uri>
+		<pose>0 50 10 0 0 0</pose>
+	</include>
+	
+	<include>
+		<uri>model://orchard_ground_plane</uri>
+	</include>
+
+	<include>
+		<uri>model://pergola_unpopulated</uri>
+	</include>
+
+	<include>
+		<uri>model://flower_population</uri>
+	</include>
+
+</world>
+</sdf>

@@ -19,7 +19,6 @@ void ContactPlugin::Load(sensors::SensorPtr _sensor, sdf::ElementPtr /*_sdf*/)
   this->parentSensor =
     boost::dynamic_pointer_cast<sensors::ContactSensor>(_sensor);
 
-  std::cout << "TEST LOAD: "<< this->parentSensor << std::endl;
   // Make sure the parent sensor is valid.
   if (!this->parentSensor)
   {
@@ -41,13 +40,17 @@ void ContactPlugin::OnUpdate()
   // Get all the contacts.
   msgs::Contacts contacts;
   contacts = this->parentSensor->GetContacts();
+  
   for (unsigned int i = 0; i < contacts.contact_size(); ++i)
   {
+	std::cout << "Name is: " << this->parentSensor->GetName() << std::endl; // Testing
+	std::cout << "i is: " << i << std::endl; // Testing
     std::cout << "Collision between[" << contacts.contact(i).collision1()
               << "] and [" << contacts.contact(i).collision2() << "]\n";
 
     for (unsigned int j = 0; j < contacts.contact(i).position_size(); ++j)
     {
+		std::cout << "j is: " << j << std::endl; // Testing
       std::cout << j << "  Position:"
                 << contacts.contact(i).position(j).x() << " "
                 << contacts.contact(i).position(j).y() << " "
@@ -57,6 +60,7 @@ void ContactPlugin::OnUpdate()
                 << contacts.contact(i).normal(j).y() << " "
                 << contacts.contact(i).normal(j).z() << "\n";
       std::cout << "   Depth:" << contacts.contact(i).depth(j) << "\n";
+      std::cout << "   Time:" << contacts.contact(i).time().sec() << " " << contacts.contact(i).time().nsec() << "\n";
     }
   }
 }

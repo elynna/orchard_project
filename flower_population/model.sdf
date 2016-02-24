@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+
+
+<sdf version='1.4'>
+  <model name="flower_population">
+	<static>true</static>
+	  
+        <link name="centre_0">
+		  <pose>0.8435467688856609 4.894765390049024 1.5362440744913275 0 0 0</pose>
+          <collision name="centre_collision_0">
+            <geometry><sphere><radius>0.02</radius></sphere></geometry>
+          </collision>
+          <visual name="visual">
+            <geometry><cylinder><radius>0.025</radius><length>0.02</length></cylinder></geometry>
+            <material><script><name>Gazebo/White</name></script></material>
+          </visual>
+        <inertial>
+          <pose>0 0 0 0 0 0</pose>
+          <mass>0.0001</mass>
+          <inertia>
+            <ixx>1.6000000000000004e-08</ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy>1.6000000000000004e-08</iyy><iyz>0.0</iyz><izz>1.6000000000000004e-08</izz>
+          </inertia>
+        </inertial>
+        <!-- Sensor for any contact with centre (stigma) of flower -->
+		<sensor name='stigma_contact_0' type='contact'>
+	      <plugin name="contact_plugin" filename="libcontact_plugin.so"/>
+		  <contact>
+			<collision>centre_collision_0</collision>
+			<topic>stigma_contact_topic_0</topic>
+		  </contact>
+		</sensor>	
+        </link>
+	
+	
+		
+    
+  </model>
+</sdf>

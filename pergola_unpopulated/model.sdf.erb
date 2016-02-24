@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <%
 
-def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
+def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max, cluster_diff)
 	anchors = rand((number/5).round..((number/2).round)) # min number of anchors is the equivalent of having clusters of 5
 	if anchors == 0
 		anchors = 1
@@ -33,9 +33,7 @@ col_num = 4 # number of trees (posts have one more)
 row_dist = 2.5 # float
 col_dist = 1.25 # float
 post_tree_dist = 0.4
-fruit_num = 825
 vine_num = 4 # number of vines per baseBranch
-
 if row_num < 1
 	row_num = 1.0
 end
@@ -64,13 +62,6 @@ vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
 vine_m = 5
 vine_z = tree_h
 vine_pitch = Math::atan2((row_dist/2),vine_h)
-fruit_mean_z = 1.7
-fruit_r = 0.022
-fruit_m = 0.05
-# diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
-diff_min = fruit_r
-diff_max = fruit_r*5
-fruit_locations = Array.new()
 tree_num = col_num*row_num
 tree_locations = Array.new()
 
@@ -82,7 +73,7 @@ end
 %>
 
 <sdf version='1.4'>
-  <model name="pergola">
+  <model name="pergola_unpopulated">
 	<% # Place grid of pergola posts %>
   <%
 	counter = 0
@@ -211,39 +202,6 @@ end
 		end
     end %>
     
-	<% # Place fruit models in pergola %>
-  <%
-	fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
-	counter = 0
-	(0...fruit_num).each do |i|	
-  %>
-		<link name="fruit_<%= counter %>">
-		  <pose><%= fruit_locations[i][0] %> <%= fruit_locations[i][1] %> <%= fruit_locations[i][2] - fruit_r %> 0 0 0</pose>
-		  <collision name="fruit_collision_<%= counter %>">
-			<geometry><sphere><radius><%= fruit_r %></radius></sphere></geometry>
-		  </collision>
-		  <visual name="visual">
-			<geometry><sphere><radius><%= fruit_r %></radius></sphere></geometry>
-			<material><script><name>Gazebo/Red</name></script></material>
-		  </visual>
-		<inertial>
-		  <pose>0 0 0 0 0 0</pose>
-		  <mass><%= fruit_m %></mass>
-		  <inertia>
-			<ixx><%= 2*fruit_m*fruit_r*fruit_r/5 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= 2*fruit_m*fruit_r*fruit_r/5 %></iyy><iyz>0.0</iyz><izz><%= 2*fruit_m*fruit_r*fruit_r/5 %></izz>
-		  </inertia>
-		</inertial>
-		<!-- Sensor for any contact with fruit -->
-		<sensor name='fruit_contact_<%= counter %>' type='contact'>
-	      <plugin name="contact_plugin_<%= counter %>" filename="libcontact_plugin.so"/>
-		  <contact>
-			<collision>fruit_collision_<%= counter %></collision>
-			<topic>fruit_contact_topic_<%= counter %></topic>
-		  </contact>
-		</sensor>		
-		</link>
-		<% counter += 1
-    end %>
     
   </model>
 </sdf>

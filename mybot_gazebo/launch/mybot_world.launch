@@ -1,15 +1,18 @@
 <?xml version="1.0"?>
 <launch>
+<env name="GAZEBO_MODEL_PATH" value="~/.gazebo/models" />
 
+<arg name="world_file" default="mybot.world"/>
 <arg name="show_robot" default="false"/>
 <arg name="show_rviz" default="false"/>
-<arg name="world_name" default="$(find mybot_gazebo)/worlds/mybot.world"/>
+<arg name="world_path" default="$(find mybot_gazebo)/worlds/$(arg world_file)"/>
 <arg name="laser_enabled" default="true"/>
 <arg name="robot_spawn" default="$(find mybot_gazebo)/launch/spawn_husky.launch"/>
+<arg name="pergola_spawn" default="$(find mybot_gazebo)/launch/spawn_pergola.launch"/>
 
 <!-- Load gazebo world -->
 <include file="$(find gazebo_ros)/launch/empty_world.launch">
-	<arg name="world_name" value="$(arg world_name)"/>
+	<arg name="world_name" value="$(arg world_path)"/>
 	<arg name="gui" value="true"/>
 	<!-- Additional arguments -->
 	<arg name="paused" value="false"/>
@@ -18,6 +21,8 @@
 	<arg name="debug" value="false"/>
 </include>
 
+<!-- Load pergola model from xacro
+<include file="$(arg pergola_spawn)"/>-->
 
 <!-- Launch RViz -->
 <group if="$(arg show_rviz)">

@@ -1,0 +1,1576 @@
+<!-- This file was generated using the em.py template 'empy/test.em' and contains the pergola structure with 50 fruit. -->
+<?xml version="1.0"?>
+<sdf version="1.4">
+<world name="test_50fruit_1">
+	<include> <uri>model://sun</uri> <pose>0 50 10 0 0 0</pose> </include>
+	<include> <uri>model://orchard_ground_plane</uri> </include>
+
+		<include>
+			<name>post_0</name>
+			<pose>0.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_1</name>
+			<pose>0.0 1.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_2</name>
+			<pose>0.0 2.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_3</name>
+			<pose>0.0 3.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_4</name>
+			<pose>0.0 4.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_5</name>
+			<pose>0.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>post_6</name>
+			<pose>2.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_7</name>
+			<pose>2.0 1.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_8</name>
+			<pose>2.0 2.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_9</name>
+			<pose>2.0 3.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_10</name>
+			<pose>2.0 4.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_11</name>
+			<pose>2.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>post_12</name>
+			<pose>4.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_13</name>
+			<pose>4.0 1.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_14</name>
+			<pose>4.0 2.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_15</name>
+			<pose>4.0 3.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_16</name>
+			<pose>4.0 4.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_17</name>
+			<pose>4.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>post_18</name>
+			<pose>6.0 0.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_19</name>
+			<pose>6.0 1.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_20</name>
+			<pose>6.0 2.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_21</name>
+			<pose>6.0 3.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_22</name>
+			<pose>6.0 4.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+		<include>
+			<name>post_23</name>
+			<pose>6.0 5.0 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		
+	
+
+
+
+
+	
+		<include>
+			<name>crossbeam_0</name>
+			<pose>1.0 0.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_1</name>
+			<pose>1.0 1.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_2</name>
+			<pose>1.0 2.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_3</name>
+			<pose>1.0 3.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_4</name>
+			<pose>1.0 4.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_5</name>
+			<pose>1.0 5.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>crossbeam_6</name>
+			<pose>3.0 0.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_7</name>
+			<pose>3.0 1.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_8</name>
+			<pose>3.0 2.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_9</name>
+			<pose>3.0 3.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_10</name>
+			<pose>3.0 4.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_11</name>
+			<pose>3.0 5.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>crossbeam_12</name>
+			<pose>5.0 0.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_13</name>
+			<pose>5.0 1.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_14</name>
+			<pose>5.0 2.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_15</name>
+			<pose>5.0 3.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_16</name>
+			<pose>5.0 4.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+		<include>
+			<name>crossbeam_17</name>
+			<pose>5.0 5.0 1.8 0 0 0</pose>
+			<uri>model://crossbeam</uri>
+		</include>	
+		
+	
+
+
+
+
+	
+		<include>
+			<name>wire_0</name>
+			<pose>0.0 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_1</name>
+			<pose>0.0 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_2</name>
+			<pose>0.0 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_3</name>
+			<pose>0.0 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_4</name>
+			<pose>0.0 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_5</name>
+			<pose>0.0 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_6</name>
+			<pose>0.0 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_7</name>
+			<pose>0.0 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_8</name>
+			<pose>0.0 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_9</name>
+			<pose>0.0 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_10</name>
+			<pose>0.666666666667 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_11</name>
+			<pose>0.666666666667 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_12</name>
+			<pose>0.666666666667 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_13</name>
+			<pose>0.666666666667 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_14</name>
+			<pose>0.666666666667 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_15</name>
+			<pose>0.666666666667 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_16</name>
+			<pose>0.666666666667 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_17</name>
+			<pose>0.666666666667 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_18</name>
+			<pose>0.666666666667 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_19</name>
+			<pose>0.666666666667 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_20</name>
+			<pose>1.33333333333 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_21</name>
+			<pose>1.33333333333 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_22</name>
+			<pose>1.33333333333 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_23</name>
+			<pose>1.33333333333 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_24</name>
+			<pose>1.33333333333 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_25</name>
+			<pose>1.33333333333 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_26</name>
+			<pose>1.33333333333 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_27</name>
+			<pose>1.33333333333 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_28</name>
+			<pose>1.33333333333 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_29</name>
+			<pose>1.33333333333 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_30</name>
+			<pose>2.0 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_31</name>
+			<pose>2.0 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_32</name>
+			<pose>2.0 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_33</name>
+			<pose>2.0 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_34</name>
+			<pose>2.0 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_35</name>
+			<pose>2.0 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_36</name>
+			<pose>2.0 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_37</name>
+			<pose>2.0 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_38</name>
+			<pose>2.0 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_39</name>
+			<pose>2.0 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_40</name>
+			<pose>2.66666666667 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_41</name>
+			<pose>2.66666666667 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_42</name>
+			<pose>2.66666666667 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_43</name>
+			<pose>2.66666666667 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_44</name>
+			<pose>2.66666666667 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_45</name>
+			<pose>2.66666666667 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_46</name>
+			<pose>2.66666666667 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_47</name>
+			<pose>2.66666666667 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_48</name>
+			<pose>2.66666666667 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_49</name>
+			<pose>2.66666666667 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_50</name>
+			<pose>3.33333333333 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_51</name>
+			<pose>3.33333333333 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_52</name>
+			<pose>3.33333333333 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_53</name>
+			<pose>3.33333333333 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_54</name>
+			<pose>3.33333333333 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_55</name>
+			<pose>3.33333333333 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_56</name>
+			<pose>3.33333333333 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_57</name>
+			<pose>3.33333333333 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_58</name>
+			<pose>3.33333333333 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_59</name>
+			<pose>3.33333333333 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_60</name>
+			<pose>4.0 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_61</name>
+			<pose>4.0 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_62</name>
+			<pose>4.0 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_63</name>
+			<pose>4.0 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_64</name>
+			<pose>4.0 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_65</name>
+			<pose>4.0 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_66</name>
+			<pose>4.0 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_67</name>
+			<pose>4.0 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_68</name>
+			<pose>4.0 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_69</name>
+			<pose>4.0 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_70</name>
+			<pose>4.66666666667 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_71</name>
+			<pose>4.66666666667 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_72</name>
+			<pose>4.66666666667 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_73</name>
+			<pose>4.66666666667 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_74</name>
+			<pose>4.66666666667 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_75</name>
+			<pose>4.66666666667 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_76</name>
+			<pose>4.66666666667 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_77</name>
+			<pose>4.66666666667 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_78</name>
+			<pose>4.66666666667 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_79</name>
+			<pose>4.66666666667 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_80</name>
+			<pose>5.33333333333 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_81</name>
+			<pose>5.33333333333 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_82</name>
+			<pose>5.33333333333 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_83</name>
+			<pose>5.33333333333 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_84</name>
+			<pose>5.33333333333 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_85</name>
+			<pose>5.33333333333 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_86</name>
+			<pose>5.33333333333 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_87</name>
+			<pose>5.33333333333 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_88</name>
+			<pose>5.33333333333 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_89</name>
+			<pose>5.33333333333 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>wire_90</name>
+			<pose>6.0 0.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_91</name>
+			<pose>6.0 0.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_92</name>
+			<pose>6.0 1.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_93</name>
+			<pose>6.0 1.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_94</name>
+			<pose>6.0 2.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_95</name>
+			<pose>6.0 2.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_96</name>
+			<pose>6.0 3.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_97</name>
+			<pose>6.0 3.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_98</name>
+			<pose>6.0 4.25 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+		<include>
+			<name>wire_99</name>
+			<pose>6.0 4.75 1.8 1.570796 0 0</pose>
+			<uri>model://wire</uri>
+		</include>	
+		
+	
+
+
+
+
+
+	
+		<include>
+			<name>tree_0</name>
+			<pose>0.0 0.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_1</name>
+			<pose>0.0 1.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_2</name>
+			<pose>0.0 2.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_3</name>
+			<pose>0.0 3.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_4</name>
+			<pose>0.0 4.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_5</name>
+			<pose>0.0 5.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>tree_6</name>
+			<pose>2.0 0.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_7</name>
+			<pose>2.0 1.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_8</name>
+			<pose>2.0 2.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_9</name>
+			<pose>2.0 3.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_10</name>
+			<pose>2.0 4.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_11</name>
+			<pose>2.0 5.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>tree_12</name>
+			<pose>4.0 0.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_13</name>
+			<pose>4.0 1.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_14</name>
+			<pose>4.0 2.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_15</name>
+			<pose>4.0 3.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_16</name>
+			<pose>4.0 4.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_17</name>
+			<pose>4.0 5.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+
+	
+		<include>
+			<name>tree_18</name>
+			<pose>6.0 0.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_19</name>
+			<pose>6.0 1.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_20</name>
+			<pose>6.0 2.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_21</name>
+			<pose>6.0 3.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_22</name>
+			<pose>6.0 4.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+		<include>
+			<name>tree_23</name>
+			<pose>6.0 5.2 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		
+	
+
+
+
+
+
+	<include>
+		<name>fruit_0</name>
+		<pose>4.98468404538 3.38234689461 1.83512114949 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_1</name>
+		<pose>1.98368728974 1.91053135589 1.62236366099 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_2</name>
+		<pose>0.755936369037 4.72451107952 1.74717958842 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_3</name>
+		<pose>0.225775862943 0.0228127573072 1.69176502451 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_4</name>
+		<pose>0.90551025041 4.92867979286 1.68181579273 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_5</name>
+		<pose>1.20676795881 3.40252390079 1.64817695078 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_6</name>
+		<pose>3.20239761048 4.46917386347 1.61674837257 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_7</name>
+		<pose>4.27127704895 2.29599768087 1.91479502205 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_8</name>
+		<pose>4.22376962667 2.83392563508 1.79992141278 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_9</name>
+		<pose>3.75932668025 1.4633757308 1.68379540738 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_10</name>
+		<pose>5.00659746184 1.84474148907 1.57930437981 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_11</name>
+		<pose>5.36048683286 3.19260185979 1.94086248229 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_12</name>
+		<pose>4.22996319824 0.647879533516 1.83761738163 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_13</name>
+		<pose>2.17219791888 1.16295156111 1.77657481808 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_14</name>
+		<pose>4.36987822487 4.52705919676 1.88467430187 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_15</name>
+		<pose>3.88298659061 2.84936003657 1.86529434471 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_16</name>
+		<pose>3.35432343653 0.572665163912 1.63835757803 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_17</name>
+		<pose>2.3907695217 2.62042458434 1.82535246962 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_18</name>
+		<pose>4.53776322329 1.78674667485 1.80983445008 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_19</name>
+		<pose>4.19502057247 2.34419819101 1.59293712364 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_20</name>
+		<pose>2.8159063297 0.560441314411 1.70411302783 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_21</name>
+		<pose>5.00299627002 3.86616482838 1.77259368361 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_22</name>
+		<pose>3.2724472739 2.57492233913 1.8686470641 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_23</name>
+		<pose>2.68211104725 0.412977841691 1.56079807372 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_24</name>
+		<pose>5.39666612898 1.46650369508 1.87705361154 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_25</name>
+		<pose>1.25950000299 2.5374922082 1.78629487966 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_26</name>
+		<pose>0.71662662877 0.222545956078 1.58350064648 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_27</name>
+		<pose>4.99270707246 0.00901243928434 1.62938858815 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_28</name>
+		<pose>4.90738940324 4.89707415828 1.8869426281 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_29</name>
+		<pose>4.45850594465 0.537916255177 1.69871862112 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_30</name>
+		<pose>5.63469437563 1.25862504174 1.83244137142 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_31</name>
+		<pose>2.19791162935 1.82546687216 1.79550389016 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_32</name>
+		<pose>1.8443516475 3.58159617953 1.85426233968 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_33</name>
+		<pose>3.18545468594 0.835796432406 1.93974211197 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_34</name>
+		<pose>3.03770324722 4.35917783821 1.86607839972 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_35</name>
+		<pose>4.03448983837 4.90770298131 1.57093920845 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_36</name>
+		<pose>1.20938505186 0.916897239324 1.71667732758 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_37</name>
+		<pose>5.25604042334 1.2284142858 1.56107091175 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_38</name>
+		<pose>2.37406840031 4.90888976908 1.94149373157 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_39</name>
+		<pose>0.347335939798 2.87322742711 1.92819894767 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_40</name>
+		<pose>2.45196042418 2.18273723265 1.78556044273 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_41</name>
+		<pose>0.140007906526 3.82561893976 1.68943031413 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_42</name>
+		<pose>2.13989452163 2.12599455361 1.68784201012 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_43</name>
+		<pose>2.71966814667 4.84376978198 1.77077979361 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_44</name>
+		<pose>4.42725240633 1.03193822484 1.6328639389 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_45</name>
+		<pose>4.97002120471 1.78258873422 1.63919072952 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_46</name>
+		<pose>3.05859944418 3.74780187736 1.88385417482 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_47</name>
+		<pose>5.60498280629 0.541043601703 1.61339545246 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_48</name>
+		<pose>2.35334559565 0.930115053792 1.82354949414 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+	<include>
+		<name>fruit_49</name>
+		<pose>0.855695049379 3.68678491076 1.90177715497 0 0 0</pose>
+		<uri>model://fruit</uri>
+	</include>	
+	
+
+</world>
+</sdf>
