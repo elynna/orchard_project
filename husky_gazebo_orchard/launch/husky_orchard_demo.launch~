@@ -7,9 +7,10 @@
 <!-- Run RViz -->
 <include file="$(find husky_gazebo_orchard)/launch/rviz.launch"/>
 
-<!-- Run move_base from husky demo -->
-<include file="$(find husky_navigation)/launch/move_base_mapless_demo.launch"/>
+<!-- Run move_base from husky demo 
+<include file="$(find husky_navigation_orchard)/launch/move_base.launch"/>-->
 
+<!-- Node to print output from husky movement -->
 <node name="move_demo" pkg="beginner_tutorials" type="husky_mover.py" output="screen" />
 
 </launch>

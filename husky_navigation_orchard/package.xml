@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This package is based on the husky navigation from http://ros.org/wiki/husky_navigation -->
+<package>
+  <name>husky_navigation_orchard</name>
+  <version>0.0.0</version>
+  <description>Autonomous navigation for the Clearpath Husky robot in the orchard demo.</description>
+  <maintainer email="elynna@todo.todo">elynna</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>gmapping</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>base_local_planner</run_depend>
+  <run_depend>dwa_local_planner</run_depend>
+
+  <export>
+  </export>
+</package>

@@ -2,13 +2,12 @@
 
 <launch>
 
-  <arg name="world_name" default="$(find mybot_gazebo)/worlds/mybot.world"/>
+  <arg name="world_name" default="$(find mybot_gazebo)/worlds/mybot_custom.world"/>
 
   <arg name="laser_enabled" default="true"/>
 <!-- ur5 and kinect unused but needed for husky launch arguments -->
   <arg name="ur5_enabled" default="false"/>
   <arg name="kinect_enabled" default="false"/>
-  <arg name="show_rviz" default="true"/>
 
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
