@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<%
+# This ERB template file creates the gazebo SDF model of the pergola structure. 
+# To use, remove extension _NoVinesNoFruit and use as model.sdf.erb in ~/.gazebo/models/pergola
+# Components of this pergola model include:
+# Posts, crossbeams, and trees (trunks and base branches that are used to anchor the vines).
+# The model created by this file can be used in conjunction with fruit_population or flower_population in order to test or reduce complexity (e.g. due to too many vines).
+# To create a model with vines but no fruit, see pergola_unpopulated model.
+
+# Basic parameters
+row_num = 10
+col_num = 10 # number of trees (posts have one more)
+row_dist = 1.5 # float
+col_dist = 1.0 # float
+post_tree_dist = 0.4
+vine_num = 0 # number of vines per baseBranch
+
+# Ensure that there is at least 2 rows and 1 column of trees
+if row_num < 2
+	row_num = 2
+end
+if col_num < 1
+	col_num = 1
+end
+# Ensure that the distance between rows and columns are plausible (above minimum) and float values
+if row_dist < 1
+	row_dist = 1.0
+end	
+if col_dist < 0.5
+	col_dist = 0.5
+end
+row_dist = row_dist.to_f
+col_dist = col_dist.to_f
+
+# Crossbeam parameters
+crossbeam_w = 0.06
+crossbeam_h = 0.02
+crossbeam_m = 5
+# Post parameters
+post_h = 1.8
+post_w = 0.1
+# Tree/branch parameters
+tree_h = 1.8
+tree_num = col_num*row_num
+tree_locations = Array.new()
+baseBranch_r = 0.04
+baseBranch_m = 10
+baseBranch_l = col_dist-crossbeam_w
+%>
+
+<sdf version='1.4'>
+  <model name="pergola">
+	<% # Place grid of pergola posts %>
+	<!-- Posts -->
+  <%
+	counter = 0
+	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
+		(0..col_num*col_dist).step(col_dist).each do |y|
+  %>
+		<include>
+			<name>post_<%= counter %></name>
+			<pose><%= x %> <%= y %> 0 0 0 0</pose>
+			<uri>model://post</uri>
+		</include>	
+		<% counter += 1
+		end
+    end %>
+    
+	<% # Create crossbeams across columns of posts %>
+	<!-- Crossbeams -->
+  <%
+	counter = 0
+	((row_dist/2)..(row_num-2)*row_dist+(row_dist/2)).step(row_dist).each do |x|
+		(0..col_num*col_dist).step(col_dist).each do |y|
+  %>
+    <link name="beam_<%= counter %>">
+      <pose><%= x %> <%= y %> <%= post_h+crossbeam_h/2 %> 0 0 0</pose>
+      <collision name="collision">
+        <geometry><box><size><%= row_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><box><size><%= row_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
+        <material><script><name>Gazebo/Wood</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass><%= crossbeam_m %></mass>
+      <inertia>
+        <ixx><%= crossbeam_m*(crossbeam_w*crossbeam_w+crossbeam_h*crossbeam_h)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= crossbeam_m*(crossbeam_w*crossbeam_w+row_dist*row_dist)/12 %></iyy><iyz>0.0</iyz><izz><%= crossbeam_m*(row_dist*row_dist+crossbeam_h*crossbeam_h)/12 %></izz>
+      </inertia>
+    </inertial>
+    </link>
+		<% counter += 1
+		end
+    end %>
+    
+	<% # Place grid of trees between posts (each tree at a fixed distance from posts) %>
+	<!-- Tree trunks -->
+  <%
+  # Determine tree locations
+	(0..row_num*row_dist).step(row_dist).each do |x|
+		(post_tree_dist..col_num*col_dist).step(col_dist).each do |y|
+			tree_locations.push([x, y])
+		end
+	end
+	counter = 0
+	(0..tree_num-1).each do |i|
+  %>
+		<include>
+			<name>tree_<%= counter %></name>
+			<pose><%= tree_locations[i][0] %> <%= tree_locations[i][1] %> 0 0 0 0</pose>
+			<uri>model://tree_trunk</uri>
+		</include>	
+		<% counter += 1
+    end %>
+    
+	<% # Create base branches along rows of trees. (Base branches are equivalent to the trunk growing horizontally along pergola) %>
+	<!-- Base branches along rows of trees. (Base branches are similar to the trunk growing horizontally along pergola) -->
+  <%
+	counter = 0
+	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
+		((col_dist/2)..(col_num)*col_dist).step(col_dist).each do |y|
+  %>
+    <link name="baseBranch_<%= counter %>">
+      <pose><%= x %> <%= y %> <%= tree_h %> <%= Math::PI/2 %> 0 0</pose>
+      <collision name="collision">
+        <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
+        <material><script><name>Gazebo/WoodFloor</name></script></material>
+      </visual>
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass><%= baseBranch_m %></mass>
+      <inertia>
+        <ixx><%= baseBranch_m*(3*baseBranch_r*baseBranch_r+baseBranch_l*baseBranch_l)/12 %></ixx><ixy>0.0</ixy><ixz>0.0</ixz><iyy><%= baseBranch_m*(3*baseBranch_r*baseBranch_r+baseBranch_l*baseBranch_l)/12 %></iyy><iyz>0.0</iyz><izz><%= baseBranch_m*baseBranch_r*baseBranch_r/2 %></izz>
+      </inertia>
+    </inertial>
+    </link>
+		<% counter += 1
+		end
+    end %>
+  </model>
+</sdf>

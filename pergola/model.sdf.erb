@@ -1,11 +1,75 @@
 <?xml version='1.0'?>
-<%
+<% 
+# This ERB template file creates the gazebo SDF model of the pergola structure.
+# Components of this pergola model include:
+# Posts, crossbeams, trees (trunks and base branches that are used to anchor the vines), vines, and fruit.
+# To use a model that is unpopulated (i.e. including all the above components except fruit), see pergola_unpopulated.
 
+# Basic parameters for pergola structure. 
+row_num = 3 # number of rows of trees
+col_num = 5 # number of columns of trees (posts have one more)
+row_dist = 3 # distance between rows
+col_dist = 1 # distance between columns
+post_tree_dist = 0.6 # distance between each post and tree
+fruit_num = 500 # number of fruit in the canopy
+vine_num = 4 # number of vines per baseBranch
+
+# Ensure that there is at least 2 rows and 1 column of trees
+if row_num < 2
+	row_num = 2
+end
+if col_num < 1
+	col_num = 1
+end
+# Ensure that the distance between rows and columns are plausible (above minimum) and float values
+if row_dist < 1
+	row_dist = 1.0
+end	
+if col_dist < 0.5
+	col_dist = 0.5
+end
+row_dist = row_dist.to_f
+col_dist = col_dist.to_f
+
+# Crossbeam parameters
+crossbeam_w = 0.06
+crossbeam_h = 0.02
+crossbeam_m = 5
+# Post parameters
+post_h = 1.8
+post_w = 0.1
+# Tree/branch parameters
+tree_h = 1.8
+tree_num = col_num*row_num
+tree_locations = Array.new()
+baseBranch_r = 0.04
+baseBranch_m = 10
+baseBranch_l = col_dist-crossbeam_w
+# Vine parameters
+vine_h = 0.05
+vine_r = 0.01
+vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
+vine_m = 5
+vine_z = tree_h
+vine_pitch = Math::atan2((row_dist/2),vine_h)
+# Fruit parameters
+fruit_mean_z = 1.7
+fruit_r = 0.022
+fruit_m = 0.05
+# diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
+diff_min = fruit_r
+diff_max = fruit_r*5
+fruit_locations = Array.new()
+%>
+<%
+# Function to get the pose of the fruit (or flowers) within the pergola structure grid.
 def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 	anchors = rand((number/5).round..((number/2).round)) # min number of anchors is the equivalent of having clusters of 5
 	if anchors == 0
 		anchors = 1
 	end
+	
+	# Array to store the fruit locations (location is given by a 3-element array of x, y, z positions within the global gazebo frame.)
 	fruit_locations_ = Array.new(number) { Array.new(3) }
 	
 	# Determine the anchor fruit locations
@@ -13,9 +77,14 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 		fruit_locations_[i] = [rand(x_min...x_max), rand(y_min...y_max), z_mean+rand(-0.15..0.15)]
 	end
 	
-	assign_to = 0
-	anchor_location = Array.new(3)
 	# Determine the non-anchor fruit locations
+	# Assign each non-anchor fruit to an anchor.
+	assign_to = 0
+	
+	# Temp array to store the location of the anchor in a cluster.
+	anchor_location = Array.new(3)
+	
+	# Iterate through the non-anchor fruits, randomly assign each to an anchor, and determine the new fruit location within a cluster range.
 	(anchors..(number-1)).each do |i|
 		if anchors > 1
 			assign_to = rand(0..(anchors-1))
@@ -27,63 +96,13 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 	end
 	return fruit_locations_
 end
-
-row_num = 3
-col_num = 4 # number of trees (posts have one more)
-row_dist = 2.5 # float
-col_dist = 1.25 # float
-post_tree_dist = 0.4
-fruit_num = 825
-vine_num = 4 # number of vines per baseBranch
-
-if row_num < 1
-	row_num = 1.0
-end
-if col_num < 1
-	col_num = 1.0
-end
-if row_dist < 1
-	row_dist = 1.0
-end	
-if col_dist < 0.5
-	col_dist = 0.5
-end
-crossbeam_w = 0.06
-crossbeam_h = 0.02
-crossbeam_m = 5
-post_h = 1.8
-post_w = 0.1
-wire_length = 0.5
-tree_h = 1.8
-baseBranch_r = 0.04 # also used as baseBranch radius
-baseBranch_m = 10
-baseBranch_l = col_dist-crossbeam_w
-vine_h = 0.05
-vine_r = 0.01
-vine_l = Math.sqrt((row_dist/2)*(row_dist/2) + vine_h*vine_h)
-vine_m = 5
-vine_z = tree_h
-vine_pitch = Math::atan2((row_dist/2),vine_h)
-fruit_mean_z = 1.7
-fruit_r = 0.022
-fruit_m = 0.05
-# diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
-diff_min = fruit_r
-diff_max = fruit_r*5
-fruit_locations = Array.new()
-tree_num = col_num*row_num
-tree_locations = Array.new()
-
-(0..row_num*row_dist).step(row_dist).each do |x|
-	(post_tree_dist..col_num*col_dist).step(col_dist).each do |y|
-		tree_locations.push([x, y])
-	end
-end
 %>
-
+<!-- This file contains a model for the pergola structure in the orchard and includes:
+<%= row_num*(col_num+1) %> posts, <%= (row_num-1)*(col_num+1) %> crossbeams, <%= row_num*col_num %> trees, <%= row_num*col_num*vine_num %> vines, and <%= fruit_num %> fruit. -->
 <sdf version='1.4'>
   <model name="pergola">
 	<% # Place grid of pergola posts %>
+	<!-- Posts -->
   <%
 	counter = 0
 	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
@@ -99,6 +118,7 @@ end
     end %>
     
 	<% # Create crossbeams across columns of posts %>
+	<!-- Crossbeams -->
   <%
 	counter = 0
 	((row_dist/2)..(row_num-2)*row_dist+(row_dist/2)).step(row_dist).each do |x|
@@ -126,7 +146,14 @@ end
     end %>
     
 	<% # Place grid of trees between posts (each tree at a fixed distance from posts) %>
+	<!-- Tree trunks -->
   <%
+  # Determine tree locations
+	(0..row_num*row_dist).step(row_dist).each do |x|
+		(post_tree_dist..col_num*col_dist).step(col_dist).each do |y|
+			tree_locations.push([x, y])
+		end
+	end
 	counter = 0
 	(0..tree_num-1).each do |i|
   %>
@@ -139,6 +166,7 @@ end
     end %>
     
 	<% # Create base branches along rows of trees. (Base branches are equivalent to the trunk growing horizontally along pergola) %>
+	<!-- Base branches along rows of trees. (Base branches are similar to the trunk growing horizontally along pergola) -->
   <%
 	counter = 0
 	(0..(row_num-1)*row_dist).step(row_dist).each do |x|
@@ -165,7 +193,8 @@ end
 		end
     end %>
     
-	<% # Create vines/branches that stretch across the columns of tree trunks %>
+	<% # Create vines/branches that stretch across the base branches. %>
+	<!-- Vines across base branches. Vines consist of an ascending and descending portion to simulate a raised canopy. -->
   <%
 	counter = 0
 	((row_dist/4)..(row_num-1)*row_dist).step(row_dist).each do |x|
@@ -212,6 +241,8 @@ end
     end %>
     
 	<% # Place fruit models in pergola %>
+	<!-- Kiwifruit - currently modelled by red spheres for simplicity. Texture can be changed, however increasing the complexity will affect loading the world in Gazebo.
+		If the world is too large with the fruit models, use unpopulated_pergola and spawn the fruit models separately (fruit_population).-->
   <%
 	fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
 	counter = 0
@@ -237,13 +268,11 @@ end
 		<sensor name='fruit_contact_<%= counter %>' type='contact'>
 	      <plugin name="contact_plugin_<%= counter %>" filename="libcontact_plugin.so"/>
 		  <contact>
-			<collision>fruit_collision_<%= counter %></collision>
-			<topic>fruit_contact_topic_<%= counter %></topic>
+			<collision>fruit_collision_<%= counter %></collision><topic>fruit_contact_topic_<%= counter %></topic>
 		  </contact>
 		</sensor>		
 		</link>
 		<% counter += 1
     end %>
-    
   </model>
 </sdf>
