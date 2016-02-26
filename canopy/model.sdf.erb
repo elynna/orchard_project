@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<% 
+# This ERB template file creates the gazebo SDF model of the pergola structure.
+# Components of this pergola model include:
+# Posts, crossbeams, trees (trunks and base branches that are used to anchor the vines), vines, and fruit.
+# To use a model that is unpopulated (i.e. including all the above components except fruit), see pergola_unpopulated.
+
+# Canopy specific parameters
+leaf_size = 1
+
+# Basic parameters for pergola structure. 
+row_num = 3 # number of rows of trees
+col_num = 5 # number of columns of trees (posts have one more)
+row_dist = 3.5 # distance between rows
+col_dist = 1.2 # distance between columns
+
+# Ensure that there is at least 2 rows and 1 column of trees
+if row_num < 2
+	row_num = 2
+end
+if col_num < 1
+	col_num = 1
+end
+# Ensure that the distance between rows and columns are plausible (above minimum) and float values
+if row_dist < 1
+	row_dist = 1.0
+end	
+if col_dist < 1
+	col_dist = 1.0
+end
+row_dist = row_dist.to_f
+col_dist = col_dist.to_f
+%>    
+ 	<% # Create visual leaves for the canopy. %>
+	<!-- Leaves in the canopy (around vines). -->
+  <%
+	x_overhang = row_num*row_dist
+	y_overhang = col_num*col_dist
+	((leaf_size/2.0)...(row_num-1)*row_dist+leaf_size/2).step(leaf_size).each do |x|
+		((leaf_size/2.0)...(col_num)*col_dist+leaf_size/2).step(leaf_size).each do |y|
+  %>
+		<include>
+			<pose><%= x %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 0 0</pose>
+			<uri>model://leaf</uri>
+		</include>	
+		<%
+		end
+    end %> 
+    
+  </model>
+</sdf>

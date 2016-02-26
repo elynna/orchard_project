@@ -1,27 +1,28 @@
 <?xml version="1.0"?>
 <launch>
-
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="-2.0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="roll_pos" default="0.0"/>
+  <arg name="pitch_pos" default="0.0"/>
+  <arg name="yaw_pos" default="1.5708"/>
   <arg name="laser_enabled" default="true"/>
   <arg name="ur5_enabled" default="false"/>
   <arg name="kinect_enabled" default="false"/>
 
-<!-- urdf xml robot description loaded on the Parameter Server, converting the xacro into a proper urdf file-->
-  <param name="robot_description" command="$(find xacro)/xacro.py '$(env HUSKY_GAZEBO_DESCRIPTION)'
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find husky_gazebo_orchard)/urdf/description.gazebo.xacro'
     laser_enabled:=$(arg laser_enabled)
     ur5_enabled:=$(arg ur5_enabled)
-    kinect_enabled:=$(arg kinect_enabled)
-    " />
+    kinect_enabled:=$(arg kinect_enabled)" />
 
-<!-- Publisher (default pkg) that allows the use of tf for the robot -->
-  <node name="robot_state_publisher" 
-	pkg="robot_state_publisher" 
-	type="robot_state_publisher" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <!-- Load Husky control information -->
+  <include file="$(find husky_control_orchard)/launch/control.launch"/>
 
   <!-- Spawn robot in gazebo -->
-  <node name="spawn_husky_model" 
-	pkg="gazebo_ros" 
-	type="spawn_model"
-    args="$(optenv ROBOT_INITIAL_POSE) -y -6 -Y 1.5708 -unpause -urdf -param robot_description -model mobile_base"/>
-
-
+  <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"
+    args="-unpause -urdf -param robot_description -model mobile_base
+	-x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) 
+	-R $(arg roll_pos) -P $(arg pitch_pos) -Y $(arg yaw_pos)"/>
 </launch>

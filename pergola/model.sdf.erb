@@ -8,11 +8,13 @@
 # Basic parameters for pergola structure. 
 row_num = 3 # number of rows of trees
 col_num = 5 # number of columns of trees (posts have one more)
-row_dist = 3 # distance between rows
-col_dist = 1 # distance between columns
+row_dist = 3.3 # distance between rows
+col_dist = 1.3 # distance between columns
 post_tree_dist = 0.6 # distance between each post and tree
 fruit_num = 500 # number of fruit in the canopy
 vine_num = 4 # number of vines per baseBranch
+tiled_canopy = true
+leaf_size = 1
 
 # Ensure that there is at least 2 rows and 1 column of trees
 if row_num < 2
@@ -25,8 +27,8 @@ end
 if row_dist < 1
 	row_dist = 1.0
 end	
-if col_dist < 0.5
-	col_dist = 0.5
+if col_dist < 1
+	col_dist = 1.0
 end
 row_dist = row_dist.to_f
 col_dist = col_dist.to_f
@@ -44,7 +46,7 @@ tree_num = col_num*row_num
 tree_locations = Array.new()
 baseBranch_r = 0.04
 baseBranch_m = 10
-baseBranch_l = col_dist-crossbeam_w
+baseBranch_l = col_dist
 # Vine parameters
 vine_h = 0.05
 vine_r = 0.01
@@ -60,6 +62,9 @@ fruit_m = 0.05
 diff_min = fruit_r
 diff_max = fruit_r*5
 fruit_locations = Array.new()
+# Canopy variables
+x_overhang = 0.0
+y_overhang = 0.0
 %>
 <%
 # Function to get the pose of the fruit (or flowers) within the pergola structure grid.
@@ -131,7 +136,9 @@ end
       </collision>
       <visual name="visual">
         <geometry><box><size><%= row_dist %> <%= crossbeam_w %> <%= crossbeam_h %></size></box></geometry>
-        <material><script><name>Gazebo/Wood</name></script></material>
+        <material><script><uri>model://post/materials/scripts</uri>
+            <uri>model://post/materials/textures</uri>
+            <name>Post/Wood</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
@@ -179,7 +186,9 @@ end
       </collision>
       <visual name="visual">
         <geometry><cylinder><radius><%= baseBranch_r %></radius> <length><%= baseBranch_l %></length></cylinder></geometry>
-        <material><script><name>Gazebo/WoodFloor</name></script></material>
+        <material><script><uri>model://tree_trunk/materials/scripts</uri>
+            <uri>model://tree_trunk/materials/textures</uri>
+            <name>Tree/Bark</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
@@ -207,7 +216,9 @@ end
       </collision>
       <visual name="visual">
         <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
-        <material><script><name>Gazebo/WoodFloor</name></script></material>
+        <material><script><uri>model://tree_trunk/materials/scripts</uri>
+            <uri>model://tree_trunk/materials/textures</uri>
+            <name>Tree/Bark</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
@@ -226,7 +237,9 @@ end
       </collision>
       <visual name="visual">
         <geometry><cylinder><radius><%= vine_r %></radius> <length><%= vine_l %></length></cylinder></geometry>
-        <material><script><name>Gazebo/WoodFloor</name></script></material>
+        <material><script><uri>model://tree_trunk/materials/scripts</uri>
+            <uri>model://tree_trunk/materials/textures</uri>
+            <name>Tree/Bark</name></script></material>
       </visual>
     <inertial>
       <pose>0 0 0 0 0 0</pose>
@@ -239,6 +252,35 @@ end
 		<% counter += 1
 		end
     end %>
+    
+ 	<% # Create a visual canopy using one model link. 
+		# To configure the tiled canopy that has more detail (including size/shape), see 'canopy' model. %>
+	<!-- Canopy visual that stretches across pergola structure. -->
+  <%
+	if tiled_canopy == true
+		x_overhang = (leaf_size - ((row_num-1)*row_dist)%leaf_size)/2 if (row_num*row_dist)%leaf_size != 0
+		y_overhang = (leaf_size - (col_num*col_dist)%leaf_size)/2 if (col_num*col_dist)%leaf_size != 0
+		((leaf_size/2.0)..(row_num-1)*row_dist+leaf_size/2).step(leaf_size).each do |x|
+			((leaf_size/2.0)..(col_num)*col_dist+leaf_size/2).step(leaf_size).each do |y|
+  %>
+			<include>
+				<pose><%= x - x_overhang %> <%= y - y_overhang %> <%= tree_h + baseBranch_r + vine_r %> 0 0 0</pose>
+				<uri>model://leaf</uri>
+			</include>	
+			<%
+			end
+		end
+    else %>
+		 <link name="canopy">
+          <pose><%= (row_num-1)*row_dist/2 %> <%= col_num*col_dist/2%> <%= tree_h + baseBranch_r + vine_r %> 0 0 0</pose>
+          <visual name="visual">
+            <geometry><box><size><%= (row_num-1)*row_dist %> <%= col_num*col_dist%> 0.1</size></box></geometry>
+            <material><script><uri>model://leaf/materials/scripts</uri>
+            <uri>model://leaf/materials/textures</uri>
+            <name>Leaf/Single</name></script></material>
+          </visual>
+        </link>
+    <% end %> 
     
 	<% # Place fruit models in pergola %>
 	<!-- Kiwifruit - currently modelled by red spheres for simplicity. Texture can be changed, however increasing the complexity will affect loading the world in Gazebo.

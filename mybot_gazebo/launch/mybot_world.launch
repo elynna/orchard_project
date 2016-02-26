@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <launch>
 <env name="GAZEBO_MODEL_PATH" value="~/.gazebo/models" />
-
 <arg name="world_file" default="mybot.world"/>
 <arg name="show_robot" default="false"/>
 <arg name="show_rviz" default="false"/>
@@ -31,15 +30,13 @@
 
 
 <group if="$(arg show_robot)">
-	<!-- Load robot control information -->
-	<include file="$(find mybot_control)/launch/control.launch" />
 	<!-- Load and spawn robot in gazebo -->
 	<include file="$(arg robot_spawn)">
 		<arg name="laser_enabled" value="$(arg laser_enabled)"/>
 	</include>
 
 	<!-- Run move_base from husky demo -->
-	<include file="$(find husky_navigation)/launch/move_base_mapless_demo.launch"/>
+	<include file="$(find husky_navigation_orchard)/launch/move_base.launch"/>
 </group>
 
 

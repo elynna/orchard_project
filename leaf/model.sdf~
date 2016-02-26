@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+
+<sdf version='1.4'>
+  <model name="leaf">
+	<static>true</static>
+        <link name="leaf">
+          <pose>0 0 0 0 0 0</pose>
+          <visual name="visual">
+            <geometry><box><size>1 1 0.1</size></box></geometry>
+            <material><script><uri>model://leaf/materials/scripts</uri>
+            <uri>model://leaf/materials/textures</uri>
+            <name>Leaf/Single</name></script></material>
+          </visual>
+        </link>
+    </model>
+</sdf>
+
+

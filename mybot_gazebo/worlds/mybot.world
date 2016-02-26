@@ -3,6 +3,11 @@
 <?xml version="1.0"?>
 <sdf version="1.4">
 <world name="mybot_world">
+	<scene>
+		<sky><clouds><speed>0.01</speed></clouds></sky>
+		<grid>false</grid>
+	</scene>
+
 	<include>
 		<uri>model://sun</uri>
 		<pose>0 50 10 0 0 0</pose>
