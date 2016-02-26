@@ -1,18 +1,22 @@
 <?xml version='1.0'?>
 <% 
-# This ERB template file creates the gazebo SDF model of the pergola structure.
-# Components of this pergola model include:
-# Posts, crossbeams, trees (trunks and base branches that are used to anchor the vines), vines, and fruit.
-# To use a model that is unpopulated (i.e. including all the above components except fruit), see pergola_unpopulated.
+# This ERB template file creates the gazebo SDF model of the canopy.
+# The model file created can be used in conjunction with pergola_unpopulated (and the fruit or flower population) 
+# and modified to reduce or increase complexity of the world.
+# NOTE: Make sure when using that the parameters match the ones in the other models if necessary.
 
-# Canopy specific parameters
+# Canopy specific parameters (these correspond to the leaf model)
 leaf_size = 1
+canopy_h = 0.3
 
 # Basic parameters for pergola structure. 
 row_num = 3 # number of rows of trees
 col_num = 5 # number of columns of trees (posts have one more)
 row_dist = 3.5 # distance between rows
 col_dist = 1.2 # distance between columns
+tree_h = 1.8
+baseBranch_r = 0.04
+vine_h = 0.05
 
 # Ensure that there is at least 2 rows and 1 column of trees
 if row_num < 2
@@ -30,22 +34,30 @@ if col_dist < 1
 end
 row_dist = row_dist.to_f
 col_dist = col_dist.to_f
+
+# Canopy variables
+x_overhang = 0.0
+y_overhang = 0.0
+canopy_z = tree_h + canopy_h/2 #tree_h + baseBranch_r + vine_h + canopy_h/2
 %>    
+<sdf version='1.4'>
+  <model name="canopy">
+	  <static>true</static>
  	<% # Create visual leaves for the canopy. %>
 	<!-- Leaves in the canopy (around vines). -->
   <%
-	x_overhang = row_num*row_dist
-	y_overhang = col_num*col_dist
-	((leaf_size/2.0)...(row_num-1)*row_dist+leaf_size/2).step(leaf_size).each do |x|
-		((leaf_size/2.0)...(col_num)*col_dist+leaf_size/2).step(leaf_size).each do |y|
+	x_overhang = (leaf_size - ((row_num-1)*row_dist)%leaf_size)/2 if (row_num*row_dist)%leaf_size != 0
+	y_overhang = (leaf_size - (col_num*col_dist)%leaf_size)/2 if (col_num*col_dist)%leaf_size != 0
+	((leaf_size/2.0)..(row_num-1)*row_dist+leaf_size/2).step(leaf_size).each do |x|
+		((leaf_size/2.0)..(col_num)*col_dist+leaf_size/2).step(leaf_size).each do |y|
   %>
 		<include>
-			<pose><%= x %> <%= y %> <%= tree_h + baseBranch_r + vine_r %> 0 0 0</pose>
+			<pose><%= x - x_overhang %> <%= y - y_overhang %> <%= canopy_z %> 0 0 0</pose>
 			<uri>model://leaf</uri>
 		</include>	
 		<%
 		end
-    end %> 
+	end %> 
     
   </model>
 </sdf>
