@@ -21,6 +21,12 @@
 		<uri>model://pergola</uri>
 	</include>
 
+	<include>
+		<name>demo_fruit</name>
+		<uri>model://fruit</uri>
+		<pose>5.3 -1.7 0.3 0 0 0</pose>
+	</include>
+
 		<!-- Sheltering hedge -->
 	<include>
 		<name>hedge1a</name>
