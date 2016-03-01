@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="x_pos" default="0.0"/>
+  <arg name="x_pos" default="5.0"/>
   <arg name="y_pos" default="-2.0"/>
   <arg name="z_pos" default="0.0"/>
   <arg name="roll_pos" default="0.0"/>

@@ -63,12 +63,19 @@ fruit_m = 0.05
 # diff_min and diff_max specify the limits of how far anchor fruit are from non-anchor fruit in a single cluster
 diff_min = fruit_r
 diff_max = fruit_r*5
-fruit_locations = Array.new()
 
 # Canopy variables
 x_overhang = 0.0
 y_overhang = 0.0
 canopy_z = tree_h + canopy_h/2 #tree_h + baseBranch_r + vine_h + canopy_h/2
+
+# Rock parameters
+rock_num = 3
+rock_r = 0.2
+rock_x_min = -1
+rock_x_max = 6
+rock_y_min = -3
+rock_y_max = 6
 %>
 <%
 # Function to get the pose of the fruit (or flowers) within the pergola structure grid.
@@ -106,8 +113,22 @@ def getPose(number, x_min, y_min, x_max, y_max, z_mean, diff_min, diff_max)
 	return fruit_locations_
 end
 %>
+<%
+# Function to get the pose of the rock in the orchard.
+def getRocks(number, x_min, y_min, x_max, y_max)
+	# Array to store the rock locations (location is given by a 2-element array of x, y positions within the global gazebo frame.)
+	rock_locations_ = Array.new(number) { Array.new(2) }
+
+	# Iterate and get random positions of rocks (Note: Can overlap)	
+	(0..(number-1)).each do |i|
+		rock_locations_[i] = [rand(x_min...x_max), rand(y_min...y_max)]
+	end
+	
+	return rock_locations_
+end
+%>
 <!-- This file contains a model for the pergola structure in the orchard and includes:
-<%= row_num*(col_num+1) %> posts, <%= (row_num-1)*(col_num+1) %> crossbeams, <%= row_num*col_num %> trees, <%= row_num*col_num*vine_num %> vines, and <%= fruit_num %> fruit. -->
+<%= row_num*(col_num+1) %> posts, <%= (row_num-1)*(col_num+1) %> crossbeams, <%= row_num*col_num %> trees, <%= row_num*col_num*vine_num %> vines, <%= fruit_num %> fruit, and <%= rock_num %> rocks. -->
 <sdf version='1.4'>
   <model name="pergola">
 	<% # Place grid of pergola posts %>
@@ -292,7 +313,7 @@ end
   <%
 	fruit_locations = getPose(fruit_num, (post_w/2), (post_w/2), (row_num-1)*row_dist-(post_w/2), (col_num)*col_dist-(post_w/2), fruit_mean_z, diff_min, diff_max)
 	counter = 0
-	(0...fruit_num).each do |i|	
+	(0..(fruit_num-1)).each do |i|	
   %>
 		<link name="fruit_<%= counter %>">
 		  <pose><%= fruit_locations[i][0] %> <%= fruit_locations[i][1] %> <%= fruit_locations[i][2] - fruit_r %> 0 0 0</pose>
@@ -320,5 +341,21 @@ end
 		</link>
 		<% counter += 1
     end %>
+    
+    <% # Randomly place rocks in the orchard %>
+	<!-- Rocks -->
+  <%
+	rock_locations = getRocks(rock_num, rock_x_min.to_f, rock_y_min.to_f, rock_x_max.to_f, rock_y_max.to_f)
+	counter = 0
+	(0..rock_num-1).each do |i|
+  %>
+		<include>
+			<name>rock_<%= counter %></name>
+			<pose><%= rock_locations[i][0] %> <%= rock_locations[i][1] %> 0 0 0 0</pose>
+			<uri>model://rock</uri>
+		</include>	
+		<% counter += 1
+    end %>
+    
   </model>
 </sdf>

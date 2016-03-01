@@ -20,9 +20,11 @@
           </cylinder>
         </geometry>
         <material>
-			<script>
-				<name>Gazebo/WoodFloor</name>
-			</script>
+		<script>
+			<uri>model://tree_trunk/materials/scripts</uri>
+			<uri>model://tree_trunk/materials/textures</uri>
+			<name>Tree/Bark</name>
+		</script>
         </material>
       </visual>
 

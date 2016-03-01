@@ -1,4 +1,4 @@
-<!-- This file contains the custom world that was used for testing and includes a hedge that is not in the pergola model used in mybot.world. -->
+<!-- This file contains the custom world that was used for testing and includes a hedge surrounding the pergola model. -->
 
 <?xml version="1.0"?>
 <sdf version="1.4">

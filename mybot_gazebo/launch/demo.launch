@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Load gazebo world with all possible models and with a robot (Husky) that can drive around. -->
+<launch>
+
+<include file="$(find mybot_gazebo)/launch/mybot_world.launch">
+	<arg name="world_file" default="demo.world"/>
+	<arg name="show_robot" default="true"/>
+	<arg name="show_rviz" default="false"/>
+</include>
+
+</launch>

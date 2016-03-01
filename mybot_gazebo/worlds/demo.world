@@ -1,0 +1,61 @@
+<!-- This world file contains the pergola model filled with flowers. -->
+
+<?xml version="1.0"?>
+<sdf version="1.4">
+<world name="demo_world">
+	<scene>
+		<sky><clouds><speed>0.01</speed></clouds></sky>
+		<grid>false</grid>
+	</scene>
+
+	<include>
+		<uri>model://sun</uri>
+		<pose>0 50 10 0 0 0</pose>
+	</include>
+	
+	<include>
+		<uri>model://orchard_ground_plane</uri>
+	</include>
+
+	<include>
+		<uri>model://pergola</uri>
+	</include>
+	
+		<!-- Sheltering hedge -->
+	<include>
+		<name>hedge1a</name>
+		<uri>model://hedge</uri>
+		<pose>-8 7 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge1b</name>
+		<uri>model://hedge</uri>
+		<pose>-8 -3 0 0 0 1.570796</pose>
+	</include>
+
+	<include>
+		<name>hedge2a</name>
+		<uri>model://hedge</uri>
+		<pose>12 7 0 0 0 1.570796</pose>
+	</include>
+	
+	<include>
+		<name>hedge3</name>
+		<uri>model://hedge</uri>
+		<pose>-3 -8 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4a</name>
+		<uri>model://hedge</uri>
+		<pose>-3 12 0 0 0 0</pose>
+	</include>
+	
+	<include>
+		<name>hedge4b</name>
+		<uri>model://hedge</uri>
+		<pose>7 12 0 0 0 0</pose>
+	</include>
+</world>
+</sdf>

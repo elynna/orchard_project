@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="rock">
+  <static>true</static>
+    <link name="rock">
+      <pose>0 0 -0.06 0 0 0</pose>
+
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>.12</radius>
+          </sphere>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>.12</radius>
+          </sphere>
+        </geometry>
+        <material>
+	  <script>
+	    	<uri>model://rock/materials/scripts</uri>
+		<uri>model://rock/materials/textures</uri>
+		<name>Rock/Granite</name>
+	  </script>
+        </material>
+      </visual>
+
+    <inertial>
+      <pose>0 0 0 0 0 0</pose>
+      <mass>0.2</mass>
+      <inertia>
+        <ixx>1.0</ixx>
+        <ixy>0.0</ixy>
+        <ixz>0.0</ixz>
+        <iyy>1.0</iyy>
+        <iyz>0.0</iyz>
+        <izz>1</izz>
+      </inertia>
+    </inertial>
+    </link>
+  </model>
+</sdf>
